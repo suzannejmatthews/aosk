@@ -1,3 +1,6 @@
-# My Awesome Book
+# The Adventures of ScriptKitty
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Created by Ovidiu-Gabrel Baciu-Ureche, Carlie Sleeman, Karlee Scott, Clay Moody and Suzanne J. Matthews
+
+\[Longer description here\]
+

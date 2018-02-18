@@ -1,3 +1,4 @@
-# First Chapter
+# And so, our story begins...
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Introduce scriptkitty, the main story line, first setup tutorial.
+

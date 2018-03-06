@@ -34,7 +34,7 @@ drive**. The hard drive of our Raspberry Pi is the tiny microSD card. This micro
 **operating system**, which is a software layer that ensures that the hardware plays nice with all of the 
 programs we write for it. This will be the first thing we will set up.
 
-![Pi2](https://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard2.jpg)
+![Pi2](http://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard2.jpg)
 
 ## Preparing the MicroSD card
 
@@ -50,6 +50,7 @@ Now we can copy the operating system for the RaspberryPi onto the microSD card:
 1. From internet: Download and install Win32 Disk Imager ( found here https://sourceforge.net/projects/win32diskimager/) 
 2. Download the Raspberry image from  XWebsite
 3. Open Win32 Disk Imager and navigate to where you downloaded the image and click OK
+![setup0](http://www.suzannejmatthews.com/images/aosk/chapter1/setup0.jpg)
 4. Click on the Write button to begin writing the image on the micro SD card.
 5. Once it is done, it will appear that the micro SD card is empty. No worries!
 6. Eject the card from your laptop and insert it in the RaspberryPi.
@@ -62,13 +63,16 @@ In the next step, we are going to connect up all our cables and connect to our P
 Your Raspberry Pi is a fully functioning computer. That means when you boot it up, you would see a 
 Desktop environment, just like when you boot up a laptop! Let's get this part set up next.
 
-1. Download and install PuTTY (found here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) 
+1. Download and install PuTTY (found here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+![setup1](http://www.suzannejmatthews.com/images/aosk/chapter1/setup1.png)
 2. Download and install VNC Viewer (found here https://www.realvnc.com/en/connect/download/vnc/viewer) 
 3. Navigate to Network and Sharing Center ( press Windows key and search for Network and Sharing Center)
 4. On the right menu go to `Change adapter settings`. Right click on `Ethernet -> Properties`. 
+![setup2](http://www.suzannejmatthews.com/images/aosk/chapter1/setup2.png)
 6. Click on `Internet Protocol Version 4 -> properties`. On the pop-up window, select `Use the following 
    IP address`. For the IP address type `10.0.0.2` and for the Subnet Mask `255.0.0.0`. Leave everything 
    else blank.
+![setup3](http://www.suzannejmatthews.com/images/aosk/chapter1/setup3.png)   
 7. Check the box that say `Validate the settings upon exit`. Click `OK` and then click the `X` on the upper 
 right hand side of the window to close it. 
 8. Keep in mind that if you regularly connect to the Internet using a Ethernet cable, you will not have 
@@ -87,18 +91,24 @@ power to your Raspberry Pi.
 
 Now it's time for the moment of truth! We get to boot up our machine! Do the following:
 1. Open `PuTTY.exe`. You should find this in Local Disk `C -> Program Files -> Putty`
+![setup4](http://www.suzannejmatthews.com/images/aosk/chapter1/setup4.png)
 2. In the Host Name box, write `10.0.0.3` and in the `Saved Sessions` write `RaspberryPi`. Press `Save` and 
 then `Open`. 
+![setup5](http://www.suzannejmatthews.com/images/aosk/chapter1/setup5.png)
 3. A black window should pop up and ask for a user name and password. (Username: root  Password: toor). If a 
    security alert shows up, select Yes.
 4. If this works, pat yourself on the back. You are now connected to the RaspberryPi via the Command Line! 
 Hooray! While you can do all of our exercises in this interface, let's get a Desktop interface for now.
+![vnc1](http://www.suzannejmatthews.com/images/aosk/chapter1/vnc1.png)
 5. In this window, type `bash startvnc.sh` and press `Enter`. Go ahead and minimize the window if you wish. 
 **DO NOT CLOSE IT**
+![vnc2](http://www.suzannejmatthews.com/images/aosk/chapter1/vnc2.png)
 6. Press the windows key and search for VNC viewer and open it. Once it opens, go to `File -> New Connection`.
 7. In the VNC server box write `10.0.0.3:5900` and in the Name box write a name for your RaspberryPi. 
 Press `OK`. 
+![vnc3](http://www.suzannejmatthews.com/images/aosk/chapter1/vnc3.png)
 8. You should see an icon with the chosen name. Double click on it.
+![desktop](http://www.suzannejmatthews.com/images/aosk/chapter1/desktop.png)
 9. Next, you will be asked for a username and password. Use the same ones from step 3.
 
 If everything worked as planned, you should now see a Desktop pop up, just like a normal computer. Great 

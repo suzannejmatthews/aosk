@@ -1,5 +1,7 @@
 # The Adventures of ScriptKitty
 
+![cover](http://www.suzannejmatthews.com/images/aosk/cover.PNG)
+
 Created by Ovidiu-Gabriel Baciu-Ureche, Carlie Sleeman, Karlee Scott, Clay Moody and Suzanne J. Matthews
 
 ## What is "The Adventures of ScriptKitty?"

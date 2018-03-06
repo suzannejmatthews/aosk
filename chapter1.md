@@ -15,6 +15,8 @@ The Raspberry Pi has a lot of the same parts that you may recognize from other c
 interacted with. One reason the Raspberry Pi is so affordable is that a lot of these components are a lot 
 less powerful than those you find desktops and laptops:
 
+![Pi1](https://www.suzannjmatthews.com/images/aosk/chapter1/PiBoard.jpg "Raspberry Pi components")
+
 * **USB ports:** these ports are used to connect input devices, such as a mouse or a keyboard.
 * **HDMI port:**  used to connect a monitor to the Pi
 * **microUSB port:** this is the port where we connect the power cable
@@ -31,6 +33,8 @@ them sometimes, computers write their long-term files and data into permanent st
 drive**. The hard drive of our Raspberry Pi is the tiny microSD card. This microSD card also houses the 
 **operating system**, which is a software layer that ensures that the hardware plays nice with all of the 
 programs we write for it. This will be the first thing we will set up.
+
+![Pi2](https://www.suzannjmatthews.com/images/aosk/chapter1/PiBoard2.jpg "SD card view")
 
 ## Preparing the MicroSD card
 

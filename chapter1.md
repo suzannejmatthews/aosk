@@ -66,7 +66,7 @@ system:
 1. From internet: Download and install Win32 Disk Imager (found here https://sourceforge.net/projects/win32diskimager/) 
 2. Download the Raspberry image from  XWebsite
 3. Open Win32 Disk Imager and navigate to where you downloaded the image and click OK
-![setup0](http://www.suzannejmatthews.com/images/aosk/chapter1/setup0.jpg)
+![setup0](http://www.suzannejmatthews.com/images/aosk/chapter1/setup0.png)
 4. Click on the Write button to begin writing the image on the micro SD card.
 5. Once it is done, it will appear that the micro SD card is empty. No worries!
 6. Eject the card from your laptop and insert it in the RaspberryPi.
@@ -145,7 +145,7 @@ Hooray! While you can do all of our exercises in this interface, let's get a Des
 Press `OK`. 
 ![vnc3](http://www.suzannejmatthews.com/images/aosk/chapter1/vnc3.png)
 8. You should see an icon with the chosen name. Double click on it.
-![desktop](http://www.suzannejmatthews.com/images/aosk/chapter1/desktop.PNG)
+![desktop](http://www.suzannejmatthews.com/images/aosk/chapter1/desktop.png)
 9. Next, you will be asked for a username and password. Use the same ones from step 3.
 
 If everything worked as planned, you should now see a Desktop pop up, just like a normal computer. Great 

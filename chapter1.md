@@ -1,8 +1,40 @@
 # And so, our story begins...
 
-Introduce scriptkitty, the main story line, first setup tutorial.
+It was a beautiful fine day on the farm where our story starts. Ruby the cat 
+was enjoying the warm sunshine streaming into her window. Her human, Jerr, 
+was on the computer. All felt right with the world. 
 
-===
+![panel1](http://www.suzannejmatthews.com/images/aosk/chapter1/panel1.PNG)
+
+Ruby's friend, Pixel, fluttered to the window. "Psst! Ruby!" Pixel called. "You 
+should see what Jerr is doing!"
+
+![panel2](http://www.suzannejmatthews.com/images/aosk/chapter1/panel2.PNG)
+
+Ruby glanced at Jerr's screen. Her human was looking at cats on the internet!
+
+"Oh no!" yowled Ruby. She was so confused. Cats? On the Internet? Jerr spent a 
+lot of time on the internet, yes, but Ruby never thought that her human would 
+be looking at cats. What on earth was Jerr up to? 
+
+"What to do, what to do?" she thought. She had to get to the bottom of this!
+
+![panel3](http://www.suzannejmatthews.com/images/aosk/chapter1/panel3.PNG)
+
+Jerr got up and suddenly walked out the door. Ruby smiled. Jerr didn't know 
+her secret. Jerr had no idea that Ruby was no ordinary cat. 
+
+![panel4](http://www.suzannejmatthews.com/images/aosk/chapter1/panel4.PNG)
+
+"Ready to get to the bottom of this mystery, Pixel?" she purred.
+
+"Ready, Scriptkitty!" Pixel chirped.
+
+# Your Goal:
+
+Help Ruby (a.k.a. ScriptKitty) and Ruby figure out what Jerr is doing!
+
+(add some more comics here) 
 
 # Getting to Know the Raspberry Pi
 

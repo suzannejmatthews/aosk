@@ -94,7 +94,7 @@ of digital content. Modern packet sniffers like **wireShark** enable you to
 even analyze the packets that get passed within a network.
 
 
-![panel7](http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
+![panel11](http://www.suzannejmatthews.com/images/aosk/chapter2/panel11.jpg)
 
 ## Is packet sniffing on wireless networks illegal?
 
@@ -116,7 +116,7 @@ coffee shops, hotels, airports, etc.) configured in a manner that is "readily
 accessible to the general public"? And if so, is running a packet capture on it 
 legal? 
 
-![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
+![panel12](http://www.suzannejmatthews.com/images/aosk/chapter2/panel12.jpg)
 
 
 Do you agree with Ruby's logic? Is it illegal? Remember, this question is 

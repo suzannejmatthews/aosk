@@ -2,6 +2,8 @@
 
 background information
 
+![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.PNG)
+
 The purpose of this tutorial is to show the students how vulnerable they can be 
 on an unsecured network. While it is fun and interesting to read emails, find 
 passwords and see what anyone else is searching, it is important to mention 
@@ -30,7 +32,8 @@ routers it is connected to. If a router is offline, the devices connected to
 it are also offline, as they cannot obtain IP addresses. Thus, the internet at 
 any particular time can be defined as the set of visible routers.
 
-##How is information sent on the internet?
+## How is information sent on the internet?
+
 Let’s talk about packets. If you want to send something over the internet 
 (say sending a picture to your grandma), it gets broken down into tiny pieces 
 called packets.
@@ -57,7 +60,8 @@ providers were originally telephone and cable providers. Since everyone has a
 unique IP address and a unique path to the network, information transfer was 
 traditionally assumed to be "safe". 
 
-##The dangers of wireless networks
+## The dangers of wireless networks
+
 This all changed with wireless networks. In a wireless network, all the 
 computers connected to the wireless router sends their information through the 
 air (similar to Mike TV and Wonka Vision in Willie Wonka and the Chocolate 
@@ -77,8 +81,6 @@ sniffer has a copy of your packets, because, of course, you get them too. It’s
 one of the consequences of being able to easily create and distribute perfect copies 
 of digital content. Modern packet sniffers like **wireShark** enable you to 
 even analyze the packets that get passed within a network.
-
-
 
 
 ## Is packet sniffing on wireless networks illegal?

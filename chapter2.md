@@ -2,7 +2,7 @@
 
 background information
 
-![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.PNG)
+![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 
 The purpose of this tutorial is to show the students how vulnerable they can be 
 on an unsecured network. While it is fun and interesting to read emails, find 

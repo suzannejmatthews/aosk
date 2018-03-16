@@ -4,13 +4,20 @@ background information
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 
-The purpose of this tutorial is to show the students how vulnerable they can be 
+
+![panel4](http://www.suzannejmatthews.com/images/aosk/chapter2/panel4.jpg)
+
+The purpose of this tutorial is to show the students how vulnerable they 
+can be on an unsecured network (Like Gerry's home network) by demonstrating how 
+a packet sniffer like WireShark can be used to monitor network activity.
+
+<!-- The purpose of this tutorial is to show the students how vulnerable they can be 
 on an unsecured network. While it is fun and interesting to read emails, find 
 passwords and see what anyone else is searching, it is important to mention 
 that this tutorial is performed in a secure environment and the network 
 packets are specifically created for this activity. The legality of capturing 
 and inspecting packets is a gray area and thus, you should not attempt to do 
-anything learn in this tutorial outside of the Raspberry Pi.
+anything learn in this tutorial outside of the Raspberry Pi. -->
 
 
 ## Networks Fundamentals
@@ -74,6 +81,10 @@ it discards the packets that are not addressed to it, just like you’re
 supposed to discard any mail you receive that’s not addressed to you. At least, 
 that’s how it’s supposed to work.
 
+![panel5](http://www.suzannejmatthews.com/images/aosk/chapter2/panel5.jpg)
+
+![panel6](http://www.suzannejmatthews.com/images/aosk/chapter2/panel6.jpg)
+
 A malicious individual can place a special device on a network called a 
 **packet sniffer**. Instead of discarding the packets that it gets, the sniffer 
 stores all of them in a packet capture. You have no knowledge that a packet 
@@ -82,6 +93,8 @@ one of the consequences of being able to easily create and distribute perfect co
 of digital content. Modern packet sniffers like **wireShark** enable you to 
 even analyze the packets that get passed within a network.
 
+
+![panel7](http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
 
 ## Is packet sniffing on wireless networks illegal?
 
@@ -103,7 +116,8 @@ coffee shops, hotels, airports, etc.) configured in a manner that is "readily
 accessible to the general public"? And if so, is running a packet capture on it 
 legal? 
 
-(enter scriptKitty logic)
+![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
+
 
 Do you agree with Ruby's logic? Is it illegal? Remember, this question is 
 different from "SHOULD it be illegal". Do people using unsecured wireless 

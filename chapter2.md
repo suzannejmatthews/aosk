@@ -41,7 +41,7 @@ any particular time can be defined as the set of visible routers.
 
 ## How is information sent on the internet?
 
-Let’s talk about packets. If you want to send something over the internet 
+Let's talk about packets. If you want to send something over the internet 
 (say sending a picture to your grandma), it gets broken down into tiny pieces 
 called packets.
 
@@ -64,7 +64,7 @@ Packets are a lot like the packages you send in the mail:
 
 Packets traditionally travelled between routers via wires. These wires could be 
 telephone wires, television cable wires, or large fibre-optic cables running 
-deep underwater. That’s one of the reasons why many of the common internet 
+deep underwater. That's one of the reasons why many of the common internet 
 providers were originally telephone and cable providers. Since everyone has a 
 unique IP address and a unique path to the network, information transfer was 
 traditionally assumed to be "safe". 
@@ -79,9 +79,9 @@ via the air, in a communication mechanism called **broadcast**.
 
 In broadcasting, every computer gets a perfect copy of all the packets sent 
 over the network. However, since every computer knows its unique IP address, 
-it discards the packets that are not addressed to it, just like you’re 
+it discards the packets that are not addressed to it, just like you're 
 supposed to discard any mail you receive that’s not addressed to you. At least, 
-that’s how it’s supposed to work.
+that's how it's supposed to work.
 
 ![panel5](http://www.suzannejmatthews.com/images/aosk/chapter2/panel5.jpg)
 
@@ -112,8 +112,8 @@ is _readily accessible to the general public_ (Section 2511(2))"
 And later, "_readily accessible to the general public_ means, with respect to a 
 radio communication that such communication is not scrambled or encrypted, 
 transmitted using modulation techniques." Thus, wiretapping secured wireless 
-networks is illegal; but what about unsecured “free” WiFi hotspots? In other 
-words, are unsecured wireless netowrks (such as those found in some homes, 
+networks is illegal; but what about unsecured "free" WiFi hotspots? In other 
+words, are unsecured wireless networks (such as those found in some homes, 
 coffee shops, hotels, airports, etc.) configured in a manner that is "readily 
 accessible to the general public"? And if so, is running a packet capture on it 
 legal? 
@@ -170,10 +170,16 @@ called Wireshark will open.
 2. In Wireshark, click on the `Protocol` tab. This will sort the packets based 
 on their protocols. In this tutorial we are interested in TCP/HPTP and SMTP 
 traffic.
+![ws1](http://www.suzannejmatthews.com/images/aosk/chapter2/ws1.png)
+
+
 3. In the search tab, type `http` and press `Enter`.
 4. Click on the `Info` tab. This will, again, sort the packets based on the 
 information they hold. For the TCP/HTTP protocol we are interested in the 
 packets that start with GET.
+![ws2](http://www.suzannejmatthews.com/images/aosk/chapter2/ws2.png)
+
+
 5. Scroll through the packets and see if any information looks familiar (e.g. 
 websites, google searches). Take a look at the packets with `/wp-content` or 
 `/search`.
@@ -185,6 +191,8 @@ packet contains, click on the arrow next to Hyper Text Transfer Protocol. If
 you look, there is an underlined text `Full request URL:` and some address. If 
 you double click on that, it will open the website and you can see the content 
 that the person whose packet you captured was looking for. 
+![ws3](http://www.suzannejmatthews.com/images/aosk/chapter2/ws3.png)
+
 7. Try to find as many information as you can about the owner's activity on 
 the internet.
 

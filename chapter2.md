@@ -45,6 +45,8 @@ Let’s talk about packets. If you want to send something over the internet
 (say sending a picture to your grandma), it gets broken down into tiny pieces 
 called packets.
 
+![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/packet.PNG)
+
 Packets are a lot like the packages you send in the mail:
 * The **packet header** contains the information on how the packet should be 
   handled, similar to the labels you see on a a regular package. 

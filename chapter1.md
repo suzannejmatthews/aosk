@@ -1,28 +1,28 @@
 # And so, our story begins...
 
 It was a beautiful fine day on the farm where our story starts. Ruby the cat 
-was enjoying the warm sunshine streaming into her window. Her human, Jerr, 
+was enjoying the warm sunshine streaming into her window. Her human, Gerry, 
 was on the computer. All felt right with the world. 
 
 ![panel1](http://www.suzannejmatthews.com/images/aosk/chapter1/panel1.PNG)
 
 Ruby's friend, Pixel, fluttered to the window. "Psst! Ruby!" Pixel called. "You 
-should see what Jerr is doing!"
+should see what Gerry is doing!"
 
 ![panel2](http://www.suzannejmatthews.com/images/aosk/chapter1/panel2.PNG)
 
-Ruby glanced at Jerr's screen. Her human was looking at cats on the internet!
+Ruby glanced at Gerry's screen. Her human was looking at cats on the internet!
 
-"Oh no!" yowled Ruby. She was so confused. Cats? On the Internet? Jerr spent a 
+"Oh no!" yowled Ruby. She was so confused. Cats? On the Internet? Gerry spent a 
 lot of time on the internet, yes, but Ruby never thought that her human would 
-be looking at cats. What on earth was Jerr up to? 
+be looking at cats. What on earth was Gerry up to? 
 
 "What to do, what to do?" she thought. She had to get to the bottom of this!
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter1/panel3.PNG)
 
-Jerr got up and suddenly walked out the door. Ruby smiled. Jerr didn't know 
-her secret. Jerr had no idea that Ruby was no ordinary cat. 
+Gerry got up and suddenly walked out the door. Ruby smiled. Gerry didn't know 
+her secret. Gerry had no idea that Ruby was no ordinary cat. 
 
 ![panel4](http://www.suzannejmatthews.com/images/aosk/chapter1/panel4.PNG)
 
@@ -32,7 +32,7 @@ her secret. Jerr had no idea that Ruby was no ordinary cat.
 
 # Your Goal:
 
-Help Ruby (a.k.a. ScriptKitty) and Ruby figure out what Jerr is doing!
+Help Ruby (a.k.a. ScriptKitty) and Pixel figure out what Gerry is doing!
 
 (add some more comics here) 
 

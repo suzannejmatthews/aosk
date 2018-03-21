@@ -74,12 +74,23 @@ The hard drive of our Raspberry Pi is the tiny microSD card. This microSD card a
 user applications. Examples of user applications include word processing tools, web browsers, 
 and games.  
 
-To get going with the Raspberry Pi, we will start by putting an Operating System on our microSD card.
+
+Your Raspberry Pi is a fully functioning computer. That means when you boot it up, you would see a Desktop
+environment, just like when you boot up a laptop! At this point, if you have a separate HDMI enabled monitor, 
+a USB keyboard and USB mouse that you can connect your Pi, you can plug those in, power up your Pi, and 
+log in. The username is `root` and the password is `toor`. If you can succesfully log in at this point,
+congratulations! You are ready to move on to the [next chapter](chapter2.md). 
+
+
+# Setting up the SD Card (Optional)
+If you are following this tutorial from home, you may need to "burn" (a type of 
+copying) an image onto the SD card. This will allow us to load the Operating 
+System on our microSD card.
 
 ![Pi2](http://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard2.jpg)
 
-## Preparing the MicroSD card
-
+## Formatting the MicroSD Card
+ 
 Before doing anything with the SD card we have to format it. This "preps" our microSD card to receive
 the operating system. 
 
@@ -89,6 +100,7 @@ the operating system.
 4. Right click on it and choose "Format"
 5. Click Start/Ok and close after it is done
 
+## "Burn" the Kali Linux Image onto the SD card
 Now we can copy the operating system for the RaspberryPi onto the microSD card. The operating system 
 for our Raspberry Pi is called Kali Linux. The Linux operating system is a common OS used by 
 security professionals and computer scientists. Kali is one of the most popular distributions of 
@@ -100,7 +112,7 @@ system:
 3. Open Win32 Disk Imager and navigate to where you downloaded the image and click OK
 ![setup0](http://www.suzannejmatthews.com/images/aosk/chapter1/setup0.png)
 4. Click on the Write button to begin writing the image on the micro SD card.
-5. Once it is done, it will appear that the micro SD card is empty. No worries!
+5. Once it is done, it will appear that the micro SD card is empty. No worries! This is how it's supposed to look!
 6. Eject the card from your laptop and insert it in the RaspberryPi.
 
 
@@ -108,14 +120,7 @@ The image that we provide you in Step 2 comes pre-installed with all the softwar
 the Raspberry Pi and explore the concepts along with ScriptKitty.
 
 
-Your Raspberry Pi is a fully functioning computer. That means when you boot it up, you would see a Desktop
-environment, just like when you boot up a laptop! At this point, if you have a separate HDMI enabled monitor, 
-a USB keyboard and USB mouse that you can connect your Pi, you can plug those in, power up your Pi, and 
-log in. The username is `root` and the password is `toor`. If you can succesfully log in at this point,
-congratulations! You are ready to move on to the next chapter. 
-
-
-## Advanced Setup Installation Instructions
+# Advanced Setup Installation Instructions
 If you don't have access to a monitor mouse and keyboard, but have a windows or 
 Mac laptop, you can still use your Raspberry Pi by connecting to it via the 
 laptop! Click below for these instructions:

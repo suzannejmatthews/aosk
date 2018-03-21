@@ -119,7 +119,7 @@ congratulations! You are ready to move on to the next chapter.
 If you don't have access to a monitor mouse and keyboard, but have a windows or 
 Mac laptop, you can still use your Raspberry Pi by connecting to it via the 
 laptop! Click below for these instructions:
-[advanced] 
+[Headless Setup Instructions][advanced]
 
 
 ## Troubleshooting
@@ -137,7 +137,7 @@ monitors to connect to your Raspberry Pi.
 
 If you don't have a HDMI-enabled monitor and keyboard at home but have a laptop, 
 see if you can get a patch cable and microUSB cable. This will allow you to 
-connect to the Raspberry Pi using our [advanced] instructions. 
+connect to the Raspberry Pi using our [advanced][advanced] instructions. 
 
-[advanced](headlessSetup.md)
+[advanced]: "headlessSetup.md"
 

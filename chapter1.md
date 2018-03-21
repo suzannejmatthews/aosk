@@ -139,5 +139,5 @@ If you don't have a HDMI-enabled monitor and keyboard at home but have a laptop,
 see if you can get a patch cable and microUSB cable. This will allow you to 
 connect to the Raspberry Pi using our [advanced][advanced] instructions. 
 
-[advanced]: (headlessSetup.md)
+[][advanced](headlessSetup.md)
 

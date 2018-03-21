@@ -33,9 +33,9 @@ on.
 Each computer on the network is assigned an **IP address**. This address is 
 subject to change. If the user connects to the internet via a different router 
 or at a different time, they may have a different IP address. Contrast this to 
-the MAC address, which is unique to a particular device. If you bring a router 
-down, you affect all the devices that are connected to it, and any other 
-routers it is connected to. If a router is offline, the devices connected to 
+the **MAC address**, which is unique to a particular device. If you bring a 
+router down, you affect all the devices that are connected to it, and any 
+other routers it is connected to. If a router is offline, the devices connected to 
 it are also offline, as they cannot obtain IP addresses. Thus, the internet at 
 any particular time can be defined as the set of visible routers.
 
@@ -50,13 +50,13 @@ called packets.
 Packets are a lot like the packages you send in the mail:
 * The **packet header** contains the information on how the packet should be 
   handled, similar to the labels you see on a a regular package. 
-* The **source and destination IP address** is like the return and address 
-  labels you place on packages you mail. 
-
-* The **port and protocol** indicate how the packet should be routed, similar 
-  to the priority mail stickers you see. The header is designed to assist the 
-  router to get the package to you, similar to how a package’s labels are 
-  designed to help the post office get your package to you.
+	* The **source and destination IP address** is like the return and 
+	  address labels you place on packages you mail. 
+	* The **port and protocol** indicate how the packet should be routed, 
+	  similar to the priority mail stickers you see. The header is designed 
+	  to assist the router to get the package to you, similar to how a 
+	  package’s labels are designed to help the post office get your 
+	  package to you.
 
 * The next (and most important component) of a packet is the **payload**. The 
   payload refers to the actual contents of the packet. This could be an e-mail 
@@ -65,17 +65,18 @@ Packets are a lot like the packages you send in the mail:
 Packets traditionally travelled between routers via wires. These wires could be 
 telephone wires, television cable wires, or large fibre-optic cables running 
 deep underwater. That's one of the reasons why many of the common internet 
-providers were originally telephone and cable providers. Since everyone has a 
-unique IP address and a unique path to the network, information transfer was 
-traditionally assumed to be "safe". 
+providers were originally telephone and cable providers. 
 
-## The dangers of wireless networks
+## The dangers of information transfer on networks
 
-This all changed with wireless networks. In a wireless network, all the 
-computers connected to the wireless router sends their information through the 
-air (similar to Mike TV and Wonka Vision in Willie Wonka and the Chocolate 
-Factory). The wireless router, sends the information back to all the computers 
-via the air, in a communication mechanism called **broadcast**. 
+In netowrks, there isn't a unique path that packets follow. In fact, to ensure 
+that there isn't a single point of failure, several copies of each packet are 
+generated, and they all travel in different directions across the network. This 
+is especially true with wireless networks, where all the  computers connected 
+to the wireless router sends their information through the air (similar to Mike 
+TV and Wonka Vision in Willie Wonka and the Chocolate Factory). The wireless 
+router, sends the information back to all the computers via the air, in a 
+communication mechanism called **broadcast**. 
 
 In broadcasting, every computer gets a perfect copy of all the packets sent 
 over the network. However, since every computer knows its unique IP address, 
@@ -83,17 +84,14 @@ it discards the packets that are not addressed to it, just like you're
 supposed to discard any mail you receive that’s not addressed to you. At least, 
 that's how it's supposed to work.
 
-![panel5](http://www.suzannejmatthews.com/images/aosk/chapter2/panel5.jpg)
 
-![panel6](http://www.suzannejmatthews.com/images/aosk/chapter2/panel6.jpg)
 
 A malicious individual can place a special device on a network called a 
 **packet sniffer**. Instead of discarding the packets that it gets, the sniffer 
 stores all of them in a packet capture. You have no knowledge that a packet 
 sniffer has a copy of your packets, because, of course, you get them too. It’s 
 one of the consequences of being able to easily create and distribute perfect copies 
-of digital content. Modern packet sniffers like **wireShark** enable you to 
-even analyze the packets that get passed within a network.
+of digital content. 
 
 
 ![panel11](http://www.suzannejmatthews.com/images/aosk/chapter2/panel11.jpg)
@@ -103,23 +101,24 @@ even analyze the packets that get passed within a network.
 Unauthorized wiretapping (putting a listening device on a wire) is illegal 
 under U.S. law. However, in a wireless network there are no wires. In fact, in 
 order to enable the US to spy on its enemies using radio communication, the 
-wiretapping law was written in such a manner that says "it shall not be 
-unlawful under this chapter or chapter 121 of this title for any person to 
-intercept or access an electronic communication made through an electronic 
-communications system that is configured so that such electronic communication 
-is _readily accessible to the general public_ (Section 2511(2))" 
+wiretapping law was written in such a manner that says 
+>"it shall not be unlawful under this chapter or chapter 121 of this title for 
+> any person to intercept or access an electronic communication made through 
+> an electronic communications system that is configured so that such electronic 
+> communication is _readily accessible to the general public_ (Section 2511(2))" 
 
-And later, "_readily accessible to the general public_ means, with respect to a 
-radio communication that such communication is not scrambled or encrypted, 
-transmitted using modulation techniques." Thus, wiretapping secured wireless 
-networks is illegal; but what about unsecured "free" WiFi hotspots? In other 
-words, are unsecured wireless networks (such as those found in some homes, 
-coffee shops, hotels, airports, etc.) configured in a manner that is "readily 
-accessible to the general public"? And if so, is running a packet capture on it 
-legal? 
+And later, 
+> "_readily accessible to the general public_ means, with respect to a 
+> radio communication that such communication is not scrambled or encrypted, 
+> transmitted using modulation techniques." 
+
+Thus, wiretapping secured wireless networks is illegal; but what about 
+unsecured "free" WiFi hotspots? In other words, are unsecured wireless 
+networks (such as those found in some homes, coffee shops, hotels, airports, 
+etc.) configured in a manner that is "readily accessible to the general public"? 
+And if so, is running a packet capture on it legal? 
 
 ![panel12](http://www.suzannejmatthews.com/images/aosk/chapter2/panel12.jpg)
-
 
 Do you agree with Ruby's logic? Is it illegal? Remember, this question is 
 different from "SHOULD it be illegal". Do people using unsecured wireless 
@@ -129,10 +128,17 @@ that protects wireless networks. The problem with the digital world is that
 our technology is progressing at a speed that far outpaces the laws written in 
 the physical world.
 
+Keep in mind that the exercises we are showing you in this chapter were created 
+in a specially controlled environment (called a **sandbox**) so there were no 
+risks in breaking the law. Since packet sniffing is a legal and ethical gray 
+area, do NOT run a packet sniffer without permission on a network that you do 
+not own!
+
 (enter another scriptKitty comic here)
 
-Should packet sniffers be illegal? Why not just outlaw packet sniffers 
-altogether? Isn’t packet sniffing obviously bad? Not exactly. 
+With all of these ethical challenges, hould packet sniffers be illegal? Why not 
+just outlaw packet sniffers altogether? Isn’t packet sniffing obviously bad? 
+Not exactly. 
 
 Packet sniffers are really useful and can be use for legitimate 
 purposes. For example, a company can use a packet sniffers on their own 
@@ -141,26 +147,27 @@ used for the correct and intended purposes, and to detect network intrusion
 attempts. They are also useful for debugging networks, and verifying the 
 effectiveness of access control systems, such as spam filters and firewalls. 
 
-**Wireshark** is a very popular packet sniffer and analyzer that has been 
-around the late 1990s, and is used by many security professionals and has won 
-many industrial awards. 
+![panel5](http://www.suzannejmatthews.com/images/aosk/chapter2/panel5.jpg)
 
 Before starting the tutorial, let's go over some basic terminology and concepts:
-1. **PCAP file**: a Packet CAPture file. When you are accessing the internet, 
-whether you search for different things, you access a specific website or you 
-send an email, everything is transferred using packets. They contain the 
-information that you request and receive. This file contains captured packets 
+1. **Wireshark** is a very popular packet sniffer and analyzer that has been 
+around the late 1990s, and is used by many security professionals and has won 
+many industrial awards. 
+2. **PCAP file**: a Packet CAPture file. All data on the internet is 
+transferred using packets. They contain the all information that you request 
+and receive, from what you search for online, the websites you click, the 
+pictures you look at. All of this information can be captured by a packet 
+sniffer an stored in the PCAP file. 
 from a network. 
-2. **Protocol:** a set of rules that allow the internet traffic. Depending on 
-what you do on the internet, there are multiple protocols used. For example, 
-if you surf the internet and search for different images or materials, you are 
-using TCP (Transmission Control Protocol). If you would like to check your 
-email, you will use SMTP (Simple Mail Transfer Protocol). You can think of 
-protocols as the box you use when you send and receive a package using the 
-mail service. Depending on the content, you will use a different box, or for a 
-letter you will use an envelope. 
-3. **Wireshark:** a powerful application that allows the user to capture and 
-analyze internet packets. It is easy to use and very user-friendly.
+2. **Protocol:** a set of rules that define how internet traffic is routed on 
+the network. For example, if you surf the internet and search for different 
+images or materials, you are using TCP (Transmission Control Protocol). If you 
+would like to check your email, you will use SMTP (Simple Mail Transfer Protocol) 
+or IMAP (the Internet Message Access Protocol). As another analogy, you can 
+think of protocols as the box you use when you send and receive a package 
+using the mail service. Depending on the content, you will use a different box, 
+or for a letter you will use an envelope. 
+
 
 ## Packet Analysis
 
@@ -219,31 +226,73 @@ So how do we protect ourselves against packet sniffing? The answer is not to
 simply use password protected wireless networks. Someone who is intent on 
 stealing your data will likely break the password. Once they are in the 
 network, they can then run the packet sniffer and your information will be lost.
-So what do we do? If you noticed, there was one individual out of the four 
-(10.3.0.18) that were unable to get any information on. This isn’t because it's 
-simply us; our info would have also shown up in the packet capture. Instead, 
-it’s because we were encrypting our packets before sending them over the web!
+So what do we do? The answer is to use encryption whenever possible!
+
+(add script kitty comic about how we know when encryption is on!)
 
 Encryption algorithms are based on really hard computer science problems 
-(NP-Hard) that will take an incredibly long time to brute force. Consequently, 
+that will take an incredibly long time to brute force. Consequently, 
 this is considered the only truly “safe” way to transmit packets. Banks, online 
 stores, and other entities that deal with financial transactions on a regular 
 basis encrypt the packets being sent to them. That is why you always connect to 
 an https address with them.
 
-One of the good things that come out of Google’s packet sniffing debacle is 
-that all Google searches are now encrypted by default. You can also install 
-third party apps on Firefox such as HTTPS everywhere that will open a secure, 
-encrypted session with SSL with whatever website you visit, if an SSL channel is
-available. Close with a discussion with students what will need to change in 
-order for organizations and governments to adopt packet encryption as 
-mainstream.
+There have been several high profile cases involving packet sniffing that has 
+occurred in decade. You can read more about them at the end of this tutorial. 
+However, one of the positive outcomes of these highly public cases is that a 
+lot of websites are using encryption by default. 
+
+(enter scriptkitty comic about how we know if encryption is on?)
+
+An easy way to check if your connection is encrypted is to look at the URL. 
+If it starts with "https://" that means it is encrypted. In browsers such as 
+Chrome, look for the little green lock and the words "secure". That lets us 
+know that encryption is on.
 
 
-Note: Nowadays, most email services are encrypted. Therefore you will not be 
-able to read the content as simple as in this tutorial. 
+(enter scriptkitty comic asking if encryption is guaranteed to keep our
+information safe)
 
+Keep in mind that if someone really wants to steal your information, they 
+will try hard. There are a lot of malicious actors who are actively trying to 
+look for vulnerabilities in TLS (the security layer that defines https), and 
+vulnerabilities are found.
 
+Keep in mind that connecting to a site using encryption only protects your data 
+as it is in transit to that site. If a site is hacked, or if the owners of the 
+website decides to share your information with third parties, your personal 
+information can still be compromised.
+
+## Protecting your data
+
+The surest way to ensure that your data never gets stolen on the internet is 
+to not use the internet. But, of course, this is not a reasonable or feasible 
+course of action! To maximize the security of your personal data, follow these 
+good essential tips.
+
+1. **Never share anything online that you don't want everyone knowing**. Be 
+   careful about what information you share on social media. This is not 
+   limited to text! Since perfect copies can be made of all digital content, 
+   be cautious about what photos and videos you upload or share as well.
+
+2. **Regularly Check your Social Media Security Settings**. Lock down your 
+   social media accounts so that only real friends (aka, people you know in 
+   real life) can access them. Some websites reset your security settings on 
+   updates, so it is a good idea to periodically check and ensure that they are 
+   where you want them to be. Be sure to read the Terms of Service (TOS) of 
+   whatever social media site you use. Nothing online is truly free -- understand 
+   who owns and how they may use your data!
+
+3. **Reduce your social media footprint**. Be careful on which "friend" requests 
+   you accept, and who is following you on twitter. Turn off GPS location posting 
+   on social media. If people know that you are in Hawaii, they know you aren't 
+   home! Remember, once it is online your information is there forever! It is 
+   extremely hard to remove content from the internet once it is there. 
+
+4. **Use encryption whenever possible.** Use https as much as possible when you 
+   search the web. Consider turning on encryption on your phone, laptop, or 
+   other devices you may own. 
+   
 
 
 

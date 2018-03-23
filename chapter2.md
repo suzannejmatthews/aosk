@@ -69,7 +69,7 @@ providers were originally telephone and cable providers.
 
 ## The dangers of information transfer on networks
 
-In netowrks, there isn't a unique path that packets follow. In fact, to ensure 
+In networks, there isn't a unique path that packets follow. In fact, to ensure 
 that there isn't a single point of failure, several copies of each packet are 
 generated, and they all travel in different directions across the network. This 
 is especially true with wireless networks, where all the  computers connected 

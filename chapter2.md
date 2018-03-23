@@ -292,6 +292,7 @@ good essential tips.
 4. **Use encryption whenever possible.** Use https as much as possible when you 
    search the web. Consider turning on encryption on your phone, laptop, or 
    other devices you may own. 
+   
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel13.jpg)   
 
 

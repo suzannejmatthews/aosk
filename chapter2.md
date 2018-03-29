@@ -1,6 +1,8 @@
 # The Ghost in the Wire
 
 background information
+![panel1](http://www.suzannejmatthews.com/images/aosk/chapter2/panel1.jpg)
+
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 

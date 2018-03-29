@@ -1,5 +1,7 @@
 # And so, our story begins...
 
+Once upon a time...
+
 It was a beautiful fine day on the farm where our story starts. Ruby the cat 
 was enjoying the warm sunshine streaming into her window. Her human, Gerry, 
 was on the computer. All felt right with the world. 

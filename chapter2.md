@@ -211,13 +211,13 @@ that the person whose packet you captured was looking for.
 the internet.
 
 
-![panel9] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
+![panel9](http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
 
 
-![panel7] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
+![panel7](http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
 
 
-![panel8] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
+![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
 
 
 ## Extra Exercise

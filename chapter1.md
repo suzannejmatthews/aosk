@@ -1,7 +1,5 @@
 # And so, our story begins...
 
-Once upon a time...
-
 It was a beautiful fine day on the farm where our story starts. Ruby the cat 
 was enjoying the warm sunshine streaming into her window. Her human, Gerry, 
 was on the computer. All felt right with the world. 
@@ -55,6 +53,14 @@ this green thing here is a Raspberry Pi."
 ![panel6](http://www.suzannejmatthews.com/images/aosk/chapter1/panel6.PNG)
 
 "A raspberry pie! That doesn't look like something I can eat!" Remarked Ed.
+
+"No, no, this is a Raspberry Pi, not a raspberry pie. It's a tiny computer!" Pixel replied.
+
+"No way, a whole computer in that little rectangle?" Ruby couldn't believe it.
+
+"For real!" said Pixel. "Look here, you can see the little pins and ports and chips."
+
+![bw_pi](http://www.suzannejmatthews.com/images/aosk/chapter1/bw_pi.PNG)
 
 # Getting to Know the Raspberry Pi
 
@@ -138,6 +144,14 @@ system:
 
 The image that we provide you in Step 2 comes pre-installed with all the software you need to get started with 
 the Raspberry Pi and explore the concepts along with ScriptKitty.
+
+
+![panel7](http://www.suzannejmatthews.com/images/aosk/chapter1/panel7.PNG)
+
+The group smiled at their handiwork.
+
+"Wow, glad we could figure all of that out," remarked Ruby.
+"Now we can get to the bottom of whatever Gerry has been doing online!"
 
 
 # Advanced Setup Installation Instructions

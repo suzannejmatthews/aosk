@@ -1,5 +1,4 @@
 # And so, our story begins...
-Once upon a time...
 
 It was a beautiful fine day on the farm where our story starts. Ruby the cat 
 was enjoying the warm sunshine streaming into her window. Her human, Gerry, 
@@ -7,16 +6,15 @@ was on the computer. All felt right with the world.
 
 ![panel1](http://www.suzannejmatthews.com/images/aosk/chapter1/panel1.PNG)
 
-Ruby's friend, Pixel, fluttered to the window. "Psst! Ruby!" Pixel called. "You 
-should see what Gerry is doing!"
+Suddenly, Ruby glanced at Gerry's computer screen and saw something she never thought she'd see.
+Gerry was looking at other cats online!
 
 ![panel2](http://www.suzannejmatthews.com/images/aosk/chapter1/panel2.PNG)
 
-Ruby glanced at Gerry's screen. Her human was looking at cats on the internet!
+"Oh no!" yowled Ruby. She was shocked and confused. Cats? On the Internet? Sure, Gerry spent a lot of time online,
+but other cats???
 
-"Oh no!" yowled Ruby. She was so confused. Cats? On the Internet? Gerry spent a 
-lot of time on the internet, yes, but Ruby never thought that her human would 
-be looking at cats. What on earth was Gerry up to? 
+"I'm right here! Gerr could just
 
 "What to do, what to do?" she thought. She had to get to the bottom of this!
 
@@ -35,7 +33,26 @@ her secret. Gerry had no idea that Ruby was no ordinary cat.
 
 Help Ruby (a.k.a. ScriptKitty) and Pixel figure out what Gerry is doing!
 
-(add some more comics here) 
+![panel5](http://www.suzannejmatthews.com/images/aosk/chapter1/panel5.PNG)
+
+Ruby looked at the gadgets laid out in front of her and frowned.
+
+"Gee, I have no clue how I'm supposed to use these."
+
+Ruby was somewhat of a collector. Whenever she finds some interesting or shiny object,
+she hides it in the bonus room. Gerry never goes back there, so it's almost like she
+has her own office!
+
+"I think I can help!" Pixel floated down to take a closer look.
+
+![panel8](http://www.suzannejmatthews.com/images/aosk/chapter1/panel8.PNG)
+
+"Ah yes, I see now. Here we have a microSD card, a USB charging cable, and
+this green thing here is a Raspberry Pi."
+
+![panel6](http://www.suzannejmatthews.com/images/aosk/chapter1/panel6.PNG)
+
+"A raspberry pie! That doesn't look like something I can eat!" Remarked Ed.
 
 # Getting to Know the Raspberry Pi
 

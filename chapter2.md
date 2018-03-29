@@ -6,6 +6,9 @@ background information
 ![panel1](http://www.suzannejmatthews.com/images/aosk/chapter2/panel1.jpg)
 
 
+![panel2](http://www.suzannejmatthews.com/images/aosk/chapter2/panel2.jpg)
+
+
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 
 
@@ -206,6 +209,16 @@ that the person whose packet you captured was looking for.
 
 7. Try to find as many information as you can about the owner's activity on 
 the internet.
+
+
+![Panel9] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
+
+
+![Panel7] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
+
+
+![Panel8] (http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
+
 
 ## Extra Exercise
 

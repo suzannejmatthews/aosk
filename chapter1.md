@@ -106,8 +106,9 @@ and games.
 Your Raspberry Pi is a fully functioning computer. That means when you boot it up, you would see a Desktop
 environment, just like when you boot up a laptop! At this point, if you have a separate HDMI enabled monitor, 
 a USB keyboard and USB mouse that you can connect your Pi, you can plug those in, power up your Pi, and 
-log in. The username is `root` and the password is `toor`. If you can succesfully log in at this point,
-congratulations! You are ready to move on to the fun part! Click [here](#ready-to-go) to continue. 
+log in. The username is `root` and the password is `toor`.
+If you can succesfully log in at this point,
+congratulations! You are now ready to move on to the fun part! Click [here](#ready-to-go) to continue. 
 
 
 # Setting up the SD Card (Optional)
@@ -157,6 +158,8 @@ The group smiled at their handiwork.
 
 "Wow, glad we could figure all of that out," remarked Ruby.
 "Now we can get to the bottom of whatever Gerry has been doing online!"
+
+When you're ready to move on to Chapter 2, click [here](chapter2.md).
 
 
 # Advanced Setup Installation Instructions

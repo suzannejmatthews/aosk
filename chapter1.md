@@ -1,4 +1,4 @@
-# And so, our story begins...
+# The adventure begins...
 
 It was a beautiful fine day on the farm where our story starts. Ruby the cat 
 was enjoying the warm sunshine streaming into her window. Her human, Gerry, 
@@ -14,24 +14,23 @@ Gerry was looking at other cats online!
 "Oh no!" yowled Ruby. She was shocked and confused. Cats? On the Internet? Sure, Gerry spent a lot of time online,
 but other cats???
 
-"I'm right here! Gerr could just
+"I'm right here! Gerr could just play with me! Why does Gerry need other cats to be entertained?" Ruby worried to herself.
 
 "What to do, what to do?" she thought. She had to get to the bottom of this!
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter1/panel3.PNG)
 
-Gerry got up and suddenly walked out the door. Ruby smiled. Gerry didn't know 
-her secret. Gerry had no idea that Ruby was no ordinary cat. 
+Gerry got up and suddenly walked out the door. Ruby began to smile as she formulated a plan. Gerry didn't know 
+her secret. Gerry didn't know that Ruby was no ordinary cat.
 
 ![panel4](http://www.suzannejmatthews.com/images/aosk/chapter1/panel4.PNG)
 
-"Ready to get to the bottom of this mystery, Pixel?" she purred.
-
-"Ready, Scriptkitty!" Pixel chirped.
+"Pixel! Ed!" Ruby called out to her friends. "There's a problem that needs to be solved,
+and ScriptKitty can't do it on her own."
 
 # Your Goal:
 
-Help Ruby (a.k.a. ScriptKitty) and Pixel figure out what Gerry is doing!
+Help Ruby (a.k.a. ScriptKitty), Pixel and Ed figure out what Gerry is doing!
 
 ![panel5](http://www.suzannejmatthews.com/images/aosk/chapter1/panel5.PNG)
 
@@ -43,18 +42,18 @@ Ruby was somewhat of a collector. Whenever she finds some interesting or shiny o
 she hides it in the bonus room. Gerry never goes back there, so it's almost like she
 has her own office!
 
-"I think I can help!" Pixel floated down to take a closer look.
+"I think I can help!" Pixel fluttered down to take a closer look.
 
 ![panel8](http://www.suzannejmatthews.com/images/aosk/chapter1/panel8.PNG)
 
 "Ah yes, I see now. Here we have a microSD card, a USB charging cable, and
-this green thing here is a Raspberry Pi."
+this green thingy here is a Raspberry Pi."
 
 ![panel6](http://www.suzannejmatthews.com/images/aosk/chapter1/panel6.PNG)
 
-"A raspberry pie! That doesn't look like something I can eat!" Remarked Ed.
+"A raspberry pie? That doesn't look like something I can eat!" Remarked Ed.
 
-"No, no, this is a Raspberry Pi, not a raspberry pie. It's a tiny computer!" Pixel replied.
+"No, no, this is a Raspberry _Pi_, not a raspberry _pie_. It's a tiny computer!" Pixel replied.
 
 "No way, a whole computer in that little rectangle?" Ruby couldn't believe it.
 
@@ -62,11 +61,14 @@ this green thing here is a Raspberry Pi."
 
 ![bw_pi](http://www.suzannejmatthews.com/images/aosk/chapter1/bw_pi.PNG)
 
+"You can connect it to a monitor, plug in a keyboard and mouse, and it's just like a regular desktop!" Pixel explained.
+"Here, this is how it all works..."
+
 # Getting to Know the Raspberry Pi
 
 The Raspberry Pi is a _single board computer_ \(or SBC\), where the entirety of the computer is printed on 
-a single circuit board. You can think of the RaspberryPi as a _mini_ computer. It has enough resources to 
-allow the user to do basic activities such as writing documents, and surfing the internet.  We will use 
+a single circuit board. You can think of the Raspberry Pi as a _mini_ computer. It has enough resources to 
+allow the user to do basic activities such as writing documents, and surfing the Internet.  We will use 
 the Rapsberry Pi as our main computer for the exercises we will be doing in this book. 
 
 The Raspberry Pi has a lot of the same parts that you may recognize from other computers that you've 
@@ -105,7 +107,7 @@ Your Raspberry Pi is a fully functioning computer. That means when you boot it u
 environment, just like when you boot up a laptop! At this point, if you have a separate HDMI enabled monitor, 
 a USB keyboard and USB mouse that you can connect your Pi, you can plug those in, power up your Pi, and 
 log in. The username is `root` and the password is `toor`. If you can succesfully log in at this point,
-congratulations! You are ready to move on to the [next chapter](chapter2.md). 
+congratulations! You are ready to move on to the fun part! Click [here](#ready-to-go) to continue. 
 
 
 # Setting up the SD Card (Optional)
@@ -114,6 +116,8 @@ copying) an image onto the SD card. This will allow us to load the Operating
 System on our microSD card.
 
 ![Pi2](http://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard2.jpg)
+
+Stuck? Click [here](#troubleshooting) for some troubleshooting tips.
 
 ## Formatting the MicroSD Card
  
@@ -145,6 +149,7 @@ system:
 The image that we provide you in Step 2 comes pre-installed with all the software you need to get started with 
 the Raspberry Pi and explore the concepts along with ScriptKitty.
 
+# Ready to go
 
 ![panel7](http://www.suzannejmatthews.com/images/aosk/chapter1/panel7.PNG)
 

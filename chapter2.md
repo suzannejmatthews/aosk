@@ -215,6 +215,8 @@ that the person whose packet you captured was looking for.
 the internet.
 
 
+##Reliable and unreliable uniform resource locators (URLs)
+
 ![panel9](http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
 
 
@@ -223,6 +225,9 @@ the internet.
 
 ![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
 
+1. **What makes a URL reliable?**
+
+2. **What makes a URL unreliable?**
 
 ## Extra Exercise
 

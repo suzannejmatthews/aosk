@@ -215,7 +215,7 @@ that the person whose packet you captured was looking for.
 the internet.
 
 
-##Reliable and unreliable uniform resource locators (URLs)
+## Reliable and unreliable uniform resource locators (URLs)
 
 ![panel9](http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
 

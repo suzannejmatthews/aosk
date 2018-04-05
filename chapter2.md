@@ -247,7 +247,7 @@ the email that has been received or sent.
 5. Try to see if you can read the emails.
 
 
-##Protecting Yourself Against Packet Sniffers
+## Protecting Yourself Against Packet Sniffers
 So how do we protect ourselves against packet sniffing? The answer is not to 
 simply use password protected wireless networks. Someone who is intent on 
 stealing your data will likely break the password. Once they are in the 

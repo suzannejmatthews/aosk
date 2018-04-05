@@ -1,13 +1,17 @@
 # The Ghost in the Wire
 
-background information
-
-
 ![panel1](http://www.suzannejmatthews.com/images/aosk/chapter2/panel1.jpg)
+
+Gerry swung the door open wide, he seemed to be on a mission. He immediately 
+sat down at his desk and turned on his computer. 
+"I wonder what he's up to?" Ruby pondered. "What if he's looking at cats again!?!"
+Ruby walked over to Gerry's computer to take a look, but she couldn't quite 
+see what he was up to. Her curiosity got the best of her.
 
 
 ![panel2](http://www.suzannejmatthews.com/images/aosk/chapter2/panel2.jpg)
 
+As Ruby squirred to her room, by pleasant surprise, Pixel fluttered in through the window.
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 

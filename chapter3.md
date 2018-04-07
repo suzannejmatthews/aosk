@@ -37,7 +37,8 @@ similar they may be) will _almost always_ result in a different string. We say "
 ## Try it out yourself!
 Open the terminal and type the command `echo -n 'scriptkitty' | md5sum`:
 
-```> echo -n 'scriptkitty' | md5sum
+```
+> echo -n 'scriptkitty' | md5sum
 13c9a04541cd023982a03b00c8c5e9ea
 ```
 

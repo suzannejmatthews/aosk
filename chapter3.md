@@ -1,11 +1,11 @@
 
 # Intro
 
-In the previous tutorial we used Wireshark to look for unencrypted information. If you skiped it, we **highly encourage** that you complete it as it shows some basic knowledge about Wireshark. In chapter 3 we are using Wireshark to recreate a transfered file and then break its password so that we can see the content. 
+In the previous tutorial we used Wireshark to look for unencrypted information. If you skipped it, we **highly encourage** that you go back and complete it, as it explains basic concepts of Wireshark. In this chapter, we use Wireshark to recreate a transfered file and then break its password so that we can see the content. 
 
 
 # What is FTP and how does it work?
-When we want to transfer a file from a computer to another over the internet we use the File Transfer Protocol (FTP). This protocol is a set of rules specially created so that a client can retrieve files from a server. FTP has two different standards: one for control (FTP) and one for data (FTP-DATA). The control version establishes the connection, verifies the username and password (not mandatory), and establishes which file is requested. FTP-DATA, then, takes care of transfering the requested file. 
+When we want to transfer a file from one computer to another over the internet, we use the File Transfer Protocol (FTP). This protocol is a set of rules specially created so that a client can retrieve files from a server. FTP has two different standards: one for control (FTP) and one for data (FTP-DATA). The control version establishes the connection, verifies the username and password (not mandatory), and establishes which file is requested. FTP-DATA, then, takes care of transfering the requested file. 
 
 As any other data on the internet, the file will be sent in multiple packets depending on its size. FTP protocol is widely used due to its simplicity. However, the downside is that it is not secure. In general, simple FTP is used for educational purposes or to transfer files between trusted entities in a private network. In order to eliminate this security problem, FPT is secured with Secure Sockets Layer(SSL) or Transport Layer Security(TLS) and in this way it becomes FTPS. 
 

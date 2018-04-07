@@ -225,9 +225,31 @@ the internet.
 
 ![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
 
-1. **What makes a URL reliable?**
+1. **What is a uniform resource locator (URL)?**
+A URL is a protocal for identifying addresses on the internent. It's what you 
+type into the address bar to navigate to a website. An example of a URL would be 
+<a>https://suzannejmatthews.gitbooks.io/aosk/content/</a>, 
+the URL for The Adventures of ScriptKitty.
 
-2. **What makes a URL unreliable?**
+2. **What makes up a URL?**
+Looking at a URL, after the **www.** the domain name can be found. For example, 
+in the URL www.google.com, **google.com** is the domain name. This is often times
+where the name of the website or organization affiliated with that website is 
+located. Within the domain name is the domain suffix. In the example above the 
+domain suffix is the **.com**. Domain suffixes come in quite the variety including, 
+**.com**, **.net**, **.gov**, **.org**, **.edu**, **.mil** and many more. Though the 
+suffix usually refers to the type of organization who created the website, that is 
+not always true. Websites can register with any domain suffix, thus it is recommended 
+to still check the website to ensure it actually aligns with its domain suffix. <sup>1</sup>. 
+
+3. **What makes a URL unreliable?**
+URLs with abstract numbers and symbols often give insight that the site may not be 
+the most reliable or safe. Also inspect the domain name, if it says something to good
+to be true, it probably is, like "freemoney.com". If you ever question whether or not
+a website is safe, there are sites like <a>http://www.urlvoid.com/</a> which check 
+the reputation of websites and report back fradulent and malicious websites. 
+Malicious websites have the capabilities to infect your computer, so be careful.<sup>2</sup>.
+
 
 ## Extra Exercise
 
@@ -321,6 +343,10 @@ good essential tips.
    
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel13.jpg)   
 
+<sup>1</sup>. “Evaluating Information - STAAR Method: URL & What It Can Tell You.” 
+University of South Carolina Upstate Library, 8 Feb. 2018, 
+uscupstate.libguides.com/c.php?g=257977&p=1721715.
 
-
-
+<sup>2</sup>. Phelps, Justin. “How to Tell If a Link Is Safe Without Clicking on It.” 
+PCWorld, 7 Feb. 2012, 11:31 am, 
+www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.

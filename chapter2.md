@@ -245,7 +245,7 @@ to still check the website to ensure it actually aligns with its domain suffix. 
 URLs with abstract numbers and symbols often give insight that the site may not be 
 the most reliable or safe. Also inspect the domain name, if it says something to good
 to be true, it probably is, like "freemoney.com". If you ever question whether or not
-a website is safe, there are sites like <a href=http://www.urlvoid.com/</a> which check 
+a website is safe, there are sites like <a>http://www.urlvoid.com/</a> which check 
 the reputation of websites and report back fradulent and malicious websites. 
 Malicious websites have the capabilities to infect your computer, so be careful.<sup>2</sup>.
 
@@ -344,8 +344,8 @@ good essential tips.
 
 <sup>1</sup>. “Evaluating Information - STAAR Method: URL & What It Can Tell You.” 
 University of South Carolina Upstate Library, 8 Feb. 2018, 
-<a href=uscupstate.libguides.com/c.php?g=257977&p=1721715.<a/>
+<a>uscupstate.libguides.com/c.php?g=257977&p=1721715.<a/>
 
 <sup>2</sup>. Phelps, Justin. “How to Tell If a Link Is Safe Without Clicking on It.” 
 PCWorld, 7 Feb. 2012, 11:31 am, 
-<a href=www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.<a/>
+<a>href=www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.<a/>

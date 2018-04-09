@@ -228,11 +228,11 @@ the internet.
 1. **What is a uniform resource locator (URL)?**
 A URL is a protocal for identifying addresses on the internent. It's what you 
 type into the address bar to navigate to a website. An example of a URL would be 
-""https://www.google.com" the URL for Google.
+`https://www.google.com` the URL for Google.
 
 2. **What makes up a URL?**
-Looking at a URL, after the **www.** the domain name can be found. For example, 
-in the URL "www.google.com", **google.com** is the domain name. This is often times
+Looking at a URL, after the `www.` the domain name can be found. For example, 
+in the URL `www.google.com`, google.com is the domain name. This is often times
 where the name of the website or organization affiliated with that website is 
 located. Within the domain name is the domain suffix. In the example above the 
 domain suffix is the **.com**. Domain suffixes come in quite the variety including, 

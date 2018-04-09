@@ -344,7 +344,7 @@ good essential tips.
 
 <sup>1</sup>. “Evaluating Information - STAAR Method: URL & What It Can Tell You.” 
 University of South Carolina Upstate Library, 8 Feb. 2018, 
-<a>www.uscupstate.libguides.com/c.php?g=257977&p=1721715.</a>
+<a>http://uscupstate.libguides.com/c.php?g=257977&p=1721715.</a>
 
 <sup>2</sup>. Phelps, Justin. “How to Tell If a Link Is Safe Without Clicking on It.” 
 PCWorld, 7 Feb. 2012, 11:31 am, 

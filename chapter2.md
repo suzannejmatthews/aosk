@@ -1,6 +1,17 @@
 # The Ghost in the Wire
 
-background information
+![panel1](http://www.suzannejmatthews.com/images/aosk/chapter2/panel1.jpg)
+
+Gerry swung the door open wide, and marched in like on a mission, immediately 
+sitting down at the desk and turning on the computer. 
+"I wonder what Gerry's up to?" Ruby pondered. "What if Gerry's looking at cats again!?!"
+Ruby walked over to Gerry's computer to take a look, but she couldn't quite 
+see what was going on. Her curiosity got the best of her.
+
+
+![panel2](http://www.suzannejmatthews.com/images/aosk/chapter2/panel2.jpg)
+
+As Ruby squirred to her room, by pleasant surprise, Pixel fluttered in through the window.
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 
@@ -69,7 +80,7 @@ providers were originally telephone and cable providers.
 
 ## The dangers of information transfer on networks
 
-In netowrks, there isn't a unique path that packets follow. In fact, to ensure 
+In networks, there isn't a unique path that packets follow. In fact, to ensure 
 that there isn't a single point of failure, several copies of each packet are 
 generated, and they all travel in different directions across the network. This 
 is especially true with wireless networks, where all the  computers connected 
@@ -203,6 +214,42 @@ that the person whose packet you captured was looking for.
 7. Try to find as many information as you can about the owner's activity on 
 the internet.
 
+
+## Reliable and unreliable uniform resource locators (URLs)
+
+![panel9](http://www.suzannejmatthews.com/images/aosk/chapter2/panel9.jpg)
+
+
+![panel7](http://www.suzannejmatthews.com/images/aosk/chapter2/panel7.jpg)
+
+
+![panel8](http://www.suzannejmatthews.com/images/aosk/chapter2/panel8.jpg)
+
+1. **What is a uniform resource locator (URL)?**
+A URL is a protocal for identifying addresses on the internent. It's what you 
+type into the address bar to navigate to a website. An example of a URL would be 
+`https://www.google.com` the URL for Google.
+
+2. **What makes up a URL?**
+Looking at a URL, after the `www.` the domain name can be found. For example, 
+in the URL `www.google.com`, google.com is the domain name. This is often times
+where the name of the website or organization affiliated with that website is 
+located. Within the domain name is the domain suffix. In the example above the 
+domain suffix is the **.com**. Domain suffixes come in quite the variety including, 
+**.com**, **.net**, **.gov**, **.org**, **.edu**, **.mil** and many more. Though the 
+suffix usually refers to the type of organization who created the website, that is 
+not always true. Websites can register with any domain suffix, thus it is recommended 
+to still check the website to ensure it actually aligns with its domain suffix. <sup>1</sup>. 
+
+3. **What makes a URL unreliable?**
+URLs with abstract numbers and symbols often give insight that the site may not be 
+the most reliable or safe. Also inspect the domain name, if it says something to good
+to be true, it probably is, like "freemoney.com". If you ever question whether or not
+a website is safe, there are sites like <a>http://www.urlvoid.com/</a> which check 
+the reputation of websites and report back fradulent and malicious websites. 
+Malicious websites have the capabilities to infect your computer, so be careful.<sup>2</sup>.
+
+
 ## Extra Exercise
 
 1. Now that you know how to find information using the http protocol, open the 
@@ -221,7 +268,7 @@ the email that has been received or sent.
 5. Try to see if you can read the emails.
 
 
-##Protecting Yourself Against Packet Sniffers
+## Protecting Yourself Against Packet Sniffers
 So how do we protect ourselves against packet sniffing? The answer is not to 
 simply use password protected wireless networks. Someone who is intent on 
 stealing your data will likely break the password. Once they are in the 
@@ -293,7 +340,12 @@ good essential tips.
    search the web. Consider turning on encryption on your phone, laptop, or 
    other devices you may own. 
    
+![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel13.jpg)   
 
+<sup>1</sup>. “Evaluating Information - STAAR Method: URL & What It Can Tell You.” 
+University of South Carolina Upstate Library, 8 Feb. 2018, 
+<a>http://uscupstate.libguides.com/c.php?g=257977&p=1721715.</a>
 
-
-
+<sup>2</sup>. Phelps, Justin. “How to Tell If a Link Is Safe Without Clicking on It.” 
+PCWorld, 7 Feb. 2012, 11:31 am, 
+<a>www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.</a>

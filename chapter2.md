@@ -186,7 +186,7 @@ or for a letter you will use an envelope.
 `capture.pcap` file found in this folder. You will notice that a program 
 called Wireshark will open.
 2. In Wireshark, click on the `Protocol` tab. This will sort the packets based 
-on their protocols. In this tutorial we are interested in TCP/HPTP and SMTP 
+on their protocols. In this tutorial we are interested in TCP/HPTP,SMTP, and FTP  
 traffic.
 ![ws1](http://www.suzannejmatthews.com/images/aosk/chapter2/ws1.png)
 
@@ -213,6 +213,22 @@ that the person whose packet you captured was looking for.
 
 7. Try to find as many information as you can about the owner's activity on 
 the internet.
+
+Now that we found some information about our owner's searches on the internet, we will try to find some other unencrypted data.
+
+8. Go to the search tab and search for `smtp`. For this protocol we are more interested in the packets which contain
+`from/to`. Click on the `info` tab to sort the packets. 
+![smtp](http://www.suzannejmatthews.com/images/aosk/chapter2/SMTP.png)
+
+9. For a packet that contains `FROM/ TO` there is a 6th category: `Internet 
+Message Format`. Click on the arrow next to it and from the new categories, 
+click on the arrow next to Line-based text data. This reveals the content of 
+the email that has been received or sent. 
+  To read the content, an alternative solution is to `right-click on the packet -> Follow -> TCP Stream`.
+ 
+![content](http://www.suzannejmatthews.com/images/aosk/chapter2/content.png)
+
+Hmm..what is our owner planning?
 
 
 ## Reliable and unreliable uniform resource locators (URLs)
@@ -250,22 +266,6 @@ the reputation of websites and report back fradulent and malicious websites.
 Malicious websites have the capabilities to infect your computer, so be careful.<sup>2</sup>.
 
 
-## Extra Exercise
-
-1. Now that you know how to find information using the http protocol, open the 
-`extra.pcap` file, go to the search tab and search for `smtp`. 
-2. For this protocol we are more interested in the packets which contain `AUTH`, 
-`from/to`.
-3. For a packet that contains `AUTH`, in the bottom half of the screen there 
-are again 5 categories: `Frame`, `Ethernet II`, `Internet Protocol Version`, 
-`Transmission Control Protocol`, and `Simple Mail Transfer Protocol`. Click on 
-the arrow next to `Simple Mail Transfer Protocol`. You should be able to see 
-the username and password for the mail account
-4. For a packet that contains `FROM/ TO` there is a 6th category: `Internet 
-Message Format`. Click on the arrow next to it and from the new categories, 
-click on the arrow next to Line-based text data. This reveals the content of 
-the email that has been received or sent. 
-5. Try to see if you can read the emails.
 
 
 ## Protecting Yourself Against Packet Sniffers

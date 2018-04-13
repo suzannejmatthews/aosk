@@ -275,8 +275,6 @@ stealing your data will likely break the password. Once they are in the
 network, they can then run the packet sniffer and your information will be lost.
 So what do we do? The answer is to use encryption whenever possible!
 
-(add script kitty comic about how we know when encryption is on!)
-
 Encryption algorithms are based on really hard computer science problems 
 that will take an incredibly long time to brute force. Consequently, 
 this is considered the only truly “safe” way to transmit packets. Banks, online 

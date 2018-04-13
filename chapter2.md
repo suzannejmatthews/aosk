@@ -218,7 +218,7 @@ Now that we found some information about our owner's searches on the internet, w
 
 8. Go to the search tab and search for `smtp`. For this protocol we are more interested in the packets which contain
 `from/to`. Click on the `info` tab to sort the packets. 
-![smtp](http://www.suzannejmatthews.com/images/aosk/chapter2/SMTP.png)
+![smtp](http://www.suzannejmatthews.com/images/aosk/chapter2/SMTP.PNG)
 
 9. For a packet that contains `FROM/ TO` there is a 6th category: `Internet 
 Message Format`. Click on the arrow next to it and from the new categories, 

@@ -226,7 +226,7 @@ click on the arrow next to Line-based text data. This reveals the content of
 the email that has been received or sent. 
   To read the content, an alternative solution is to `right-click on the packet -> Follow -> TCP Stream`.
  
-![content](http://www.suzannejmatthews.com/images/aosk/chapter2/content.png)
+![content](http://www.suzannejmatthews.com/images/aosk/chapter2/content.PNG)
 
 Hmm..what is our owner planning?
 

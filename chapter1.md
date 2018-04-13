@@ -110,18 +110,21 @@ log in. The username is `root` and the password is `toor`.
 If you can succesfully log in at this point,
 congratulations! You are now ready to move on to the fun part! Click [here](#ready-to-go) to continue. 
 
+## Advanced Setup
+If you don't have access to an extra monitor, mouse and keyboard, but have a windows or 
+Mac laptop, you can still use your Raspberry Pi by connecting to it via the 
+laptop! Click below for these instructions:
+[Headless Setup Instructions](headlessSetup.md)
 
-# Setting up the SD Card (Optional)
+# Setting up the MicroSD Card
 If you are following this tutorial from home, you may need to "burn" (a type of 
 copying) an image onto the SD card. This will allow us to load the Operating 
 System on our microSD card.
 
 ![Pi2](http://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard2.jpg)
 
-Stuck? Click [here](#troubleshooting) for some troubleshooting tips.
-
 ## Formatting the MicroSD Card
- 
+
 Before doing anything with the SD card we have to format it. This "preps" our microSD card to receive
 the operating system. 
 
@@ -150,6 +153,9 @@ system:
 The image that we provide you in Step 2 comes pre-installed with all the software you need to get started with 
 the Raspberry Pi and explore the concepts along with ScriptKitty.
 
+Stuck? Click [here](#troubleshooting) for some troubleshooting tips.
+
+
 # Ready to go
 
 ![panel7](http://www.suzannejmatthews.com/images/aosk/chapter1/panel7.PNG)
@@ -160,13 +166,6 @@ The group smiled at their handiwork.
 "Now we can get to the bottom of whatever Gerry has been doing online!"
 
 When you're ready to move on to Chapter 2, click [here](chapter2.md).
-
-
-# Advanced Setup Installation Instructions
-If you don't have access to a monitor mouse and keyboard, but have a windows or 
-Mac laptop, you can still use your Raspberry Pi by connecting to it via the 
-laptop! Click below for these instructions:
-[Headless Setup Instructions](headlessSetup.md)
 
 
 ## Troubleshooting

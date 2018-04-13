@@ -2,7 +2,7 @@
 
 These instructions will guide you through the steps on how  to connect to your 
 Raspberry Pi using something called a _headless configuration_. Instead of 
-connecting separate IO devices to our Raspberry Pi, we are going to connect 
+connecting separate IO devices to our Raspberry Pi (like a keyboard or mouse), we are going to connect 
 the Raspberry Pi to a laptop. This enables us to interact with our Raspberry Pi 
 using the monitor, keyboard and mouse of the laptop! Pretty cool, huh?
 
@@ -10,7 +10,7 @@ To use this configuration, you will need the following:
 1. A laptop running Windows 7 or later
 2. An SD card reader (several laptops come with one built-in)
 3. An ethernet port, or a USB-to-ethernet dongle
-4. A crossover cable
+4. A crossover cable (also called an ethernet cord)
 5. A microUSB to USB cable.
 
 To connect to the Raspberry Pi in this manner, we need to install some additional programs on our 
@@ -26,7 +26,7 @@ program called PuTTY. Keep in mind that PuTTY is only necessary if you are using
 1. Download and install PuTTY (found here https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 ![setup1](http://www.suzannejmatthews.com/images/aosk/chapter1/setup1.png)
 2. Download and install VNC Viewer (found here https://www.realvnc.com/en/connect/download/vnc/viewer) 
-3. Navigate to Network and Sharing Center ( press Windows key and search for Network and Sharing Center)
+3. Navigate to Network and Sharing Center (press Windows key and search for Network and Sharing Center)
 4. On the right menu go to `Change adapter settings`. Right click on `Ethernet -> Properties`. 
 ![setup2](http://www.suzannejmatthews.com/images/aosk/chapter1/setup2.png)
 6. Click on `Internet Protocol Version 4 -> properties`. On the pop-up window, select `Use the following 

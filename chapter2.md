@@ -286,17 +286,15 @@ There have been several high profile cases involving packet sniffing that has
 occurred in decade. You can read more about them at the end of this tutorial. 
 However, one of the positive outcomes of these highly public cases is that a 
 lot of websites are using encryption by default. 
+![panel16](http://www.suzannejmatthews.com/images/aosk/chapter2/panel16.JPG)
 
-(enter scriptkitty comic about how we know if encryption is on?)
 
 An easy way to check if your connection is encrypted is to look at the URL. 
 If it starts with "https://" that means it is encrypted. In browsers such as 
 Chrome, look for the little green lock and the words "secure". That lets us 
 know that encryption is on.
+![panel15](http://www.suzannejmatthews.com/images/aosk/chapter2/panel15.JPG)
 
-
-(enter scriptkitty comic asking if encryption is guaranteed to keep our
-information safe)
 
 Keep in mind that if someone really wants to steal your information, they 
 will try hard. There are a lot of malicious actors who are actively trying to 

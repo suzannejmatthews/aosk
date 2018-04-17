@@ -11,7 +11,7 @@ see what was going on. Her curiosity got the best of her.
 
 ![panel2](http://www.suzannejmatthews.com/images/aosk/chapter2/panel2.jpg)
 
-As Ruby squirred to her room, by pleasant surprise, Pixel fluttered in through the window.
+As Ruby scurried to her room, by pleasant surprise, Pixel fluttered in through the window.
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel3.jpg)
 
@@ -145,8 +145,6 @@ risks in breaking the law. Since packet sniffing is a legal and ethical gray
 area, do NOT run a packet sniffer without permission on a network that you do 
 not own!
 
-(enter another scriptKitty comic here)
-
 With all of these ethical challenges, hould packet sniffers be illegal? Why not 
 just outlaw packet sniffers altogether? Isn’t packet sniffing obviously bad? 
 Not exactly. 
@@ -172,7 +170,7 @@ sniffer an stored in the PCAP file.
 from a network. 
 2. **Protocol:** a set of rules that define how internet traffic is routed on 
 the network. For example, if you surf the internet and search for different 
-images or materials, you are using TCP (Transmission Control Protocol). If you 
+images or materials, you are using HTTP (Hyper Text Transfer Protocol). If you 
 would like to check your email, you will use SMTP (Simple Mail Transfer Protocol) 
 or IMAP (the Internet Message Access Protocol). As another analogy, you can 
 think of protocols as the box you use when you send and receive a package 

@@ -83,18 +83,21 @@ Raspberry, Load and Open. Repeat steps 3-5. Open VNC viewer and follow step 9.
 ## Troubleshooting
 
 **Q: I don't have a windows laptop. I have a macbook.  Can I still use the Raspberry Pi?**
+
 A: Absolutely! You don't need to install Putty, but go ahead and install OpenVNC. To connect to your 
 laptop using using your macbook, open up the `Terminal` application, and type in the command:
 `ssh root@10.0.0.3`. Make sure that you connect your Ethernet cable to your Pi and laptop and power it up 
 first though!
 
 **Q: My laptop doesn't have an Ethernet port! What do I do?**
+
 A: A lot of modern laptops are getting rid of the Ethernet port. Not to worry though -- you can connect to 
 the Rapsberry Pi using a USB to Ethernet dongle. Some dongles require that you install a driver to get it 
 to work. Make sure that you install any needed drivers. If you run into issues, ask your teacher or a parent 
 for help.
 
 **Q: When I try to connect using PuTTY, I get an error that says "Refused Connection" what do I do?**
+
 A: Open up a command window and type `ipconfig`. If your IP address does not show up as `10.0.0.2`, that 
 means that your network configuration isn't right. Ensure that your Ethernet cable is connected to your 
 computer and the lights on the Ethernet port is flashing. If this doesn't work, try unplugging the 
@@ -102,6 +105,7 @@ power cable to your Pi, and reconnecting it. This is called "power-cycling". Usu
 sufficient.
 
 **Q: I don't see any Ethernet lights when I try to connect to my Pi!**
+
 A: Is your Pi powered on? If so, what color is the light? If the light is red, that means that there 
 might be something wrong with your microSD card. Try reimaging the card by redoing the steps in the 
 "Preparing the MicroSD card" section. 

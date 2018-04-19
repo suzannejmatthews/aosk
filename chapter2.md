@@ -31,7 +31,7 @@ and inspecting packets is a gray area and thus, you should not attempt to do
 anything learn in this tutorial outside of the Raspberry Pi. -->
 
 
-## Networks Fundamentals
+## Network Fundamentals
 Let's start by talking about networks. A **network** is simply a collection of 
 computers or other devices that are connected together some way, usually via a 
 router. 
@@ -50,7 +50,7 @@ other routers it is connected to. If a router is offline, the devices connected 
 it are also offline, as they cannot obtain IP addresses. Thus, the internet at 
 any particular time can be defined as the set of visible routers.
 
-## How is information sent on the internet?
+## How is Information Sent on the Internet?
 
 Let's talk about packets. If you want to send something over the internet 
 (say sending a picture to your grandma), it gets broken down into tiny pieces 
@@ -69,7 +69,7 @@ Packets are a lot like the packages you send in the mail:
 	  package’s labels are designed to help the post office get your 
 	  package to you.
 
-* The next (and most important component) of a packet is the **payload**. The 
+* The next (and most important) component of a packet is the **payload**. The 
   payload refers to the actual contents of the packet. This could be an e-mail 
   message, passwords, websites, etc. 
 
@@ -78,20 +78,20 @@ telephone wires, television cable wires, or large fibre-optic cables running
 deep underwater. That's one of the reasons why many of the common internet 
 providers were originally telephone and cable providers. 
 
-## The dangers of information transfer on networks
+## The Dangers of Information Transfer on Networks
 
 In networks, there isn't a unique path that packets follow. In fact, to ensure 
 that there isn't a single point of failure, several copies of each packet are 
 generated, and they all travel in different directions across the network. This 
 is especially true with wireless networks, where all the  computers connected 
 to the wireless router sends their information through the air (similar to Mike 
-TV and Wonka Vision in Willie Wonka and the Chocolate Factory). The wireless 
+Teavee and Wonka Vision in Willie Wonka and the Chocolate Factory). The wireless 
 router, sends the information back to all the computers via the air, in a 
 communication mechanism called **broadcast**. 
 
 In broadcasting, every computer gets a perfect copy of all the packets sent 
 over the network. However, since every computer knows its unique IP address, 
-it discards the packets that are not addressed to it, just like you're 
+it discards the packets that are not addressed to it. Just like you're 
 supposed to discard any mail you receive that’s not addressed to you. At least, 
 that's how it's supposed to work.
 
@@ -145,13 +145,11 @@ risks in breaking the law. Since packet sniffing is a legal and ethical gray
 area, do NOT run a packet sniffer without permission on a network that you do 
 not own!
 
-(enter another scriptKitty comic here)
-
-With all of these ethical challenges, hould packet sniffers be illegal? Why not 
+With all of these ethical challenges, should packet sniffers be illegal? Why not 
 just outlaw packet sniffers altogether? Isn’t packet sniffing obviously bad? 
 Not exactly. 
 
-Packet sniffers are really useful and can be use for legitimate 
+Packet sniffers are really useful and can be used for legitimate 
 purposes. For example, a company can use a packet sniffers on their own 
 networks to monitor network traffic, and ensure their networks are being 
 used for the correct and intended purposes, and to detect network intrusion 
@@ -164,13 +162,15 @@ Before starting the tutorial, let's go over some basic terminology and concepts:
 1. **Wireshark** is a very popular packet sniffer and analyzer that has been 
 around the late 1990s, and is used by many security professionals and has won 
 many industrial awards. 
+
 2. **PCAP file**: a Packet CAPture file. All data on the internet is 
 transferred using packets. They contain the all information that you request 
 and receive, from what you search for online, the websites you click, the 
 pictures you look at. All of this information can be captured by a packet 
 sniffer an stored in the PCAP file. 
 from a network. 
-2. **Protocol:** a set of rules that define how internet traffic is routed on 
+
+3. **Protocol:** a set of rules that define how internet traffic is routed on 
 the network. For example, if you surf the internet and search for different 
 images or materials, you are using TCP (Transmission Control Protocol). If you 
 would like to check your email, you will use SMTP (Simple Mail Transfer Protocol) 
@@ -185,22 +185,23 @@ or for a letter you will use an envelope.
 1. On the Pi desktop there is a folder named `Packet Sniffing`. Open the 
 `capture.pcap` file found in this folder. You will notice that a program 
 called Wireshark will open.
+
 2. In Wireshark, click on the `Protocol` tab. This will sort the packets based 
 on their protocols. In this tutorial we are interested in TCP/HPTP,SMTP, and FTP  
 traffic.
 ![ws1](http://www.suzannejmatthews.com/images/aosk/chapter2/ws1.png)
 
-
 3. In the search tab, type `http` and press `Enter`.
+
 4. Click on the `Info` tab. This will, again, sort the packets based on the 
 information they hold. For the TCP/HTTP protocol we are interested in the 
 packets that start with GET.
 ![ws2](http://www.suzannejmatthews.com/images/aosk/chapter2/ws2.png)
 
-
 5. Scroll through the packets and see if any information looks familiar (e.g. 
 websites, google searches). Take a look at the packets with `/wp-content` or 
 `/search`.
+
 6. Suppose you identified an address to a website or some words that look like 
 a search. Click on the packet. In the bottom half of the screen there are 5 
 categories: Frame, Ethernet II, Internet Protocol Version, Transmission 
@@ -212,9 +213,9 @@ that the person whose packet you captured was looking for.
 ![ws3](http://www.suzannejmatthews.com/images/aosk/chapter2/ws3.png)
 
 7. Try to find as many information as you can about the owner's activity on 
-the internet.
+the Internet.
 
-Now that we found some information about our owner's searches on the internet, we will try to find some other unencrypted data.
+Now that we found some information about our owner's searches on the Internet, we will try to find some other unencrypted data.
 
 8. Go to the search tab and search for `smtp`. For this protocol we are more interested in the packets which contain
 `from/to`. Click on the `info` tab to sort the packets. 
@@ -228,7 +229,7 @@ the email that has been received or sent.
  
 ![content](http://www.suzannejmatthews.com/images/aosk/chapter2/content.PNG)
 
-Hmm..what is our owner planning?
+Hmm...what is our owner planning?
 
 
 ## Reliable and unreliable uniform resource locators (URLs)
@@ -275,8 +276,6 @@ stealing your data will likely break the password. Once they are in the
 network, they can then run the packet sniffer and your information will be lost.
 So what do we do? The answer is to use encryption whenever possible!
 
-(add script kitty comic about how we know when encryption is on!)
-
 Encryption algorithms are based on really hard computer science problems 
 that will take an incredibly long time to brute force. Consequently, 
 this is considered the only truly “safe” way to transmit packets. Banks, online 
@@ -289,16 +288,10 @@ occurred in decade. You can read more about them at the end of this tutorial.
 However, one of the positive outcomes of these highly public cases is that a 
 lot of websites are using encryption by default. 
 
-(enter scriptkitty comic about how we know if encryption is on?)
-
 An easy way to check if your connection is encrypted is to look at the URL. 
 If it starts with "https://" that means it is encrypted. In browsers such as 
 Chrome, look for the little green lock and the words "secure". That lets us 
 know that encryption is on.
-
-
-(enter scriptkitty comic asking if encryption is guaranteed to keep our
-information safe)
 
 Keep in mind that if someone really wants to steal your information, they 
 will try hard. There are a lot of malicious actors who are actively trying to 
@@ -310,12 +303,11 @@ as it is in transit to that site. If a site is hacked, or if the owners of the
 website decides to share your information with third parties, your personal 
 information can still be compromised.
 
-## Protecting your data
+## Protecting Your Data
 
 The surest way to ensure that your data never gets stolen on the internet is 
 to not use the internet. But, of course, this is not a reasonable or feasible 
-course of action! To maximize the security of your personal data, follow these 
-good essential tips.
+course of action! To maximize the security of your personal data, follow these essential tips.
 
 1. **Never share anything online that you don't want everyone knowing**. Be 
    careful about what information you share on social media. This is not 
@@ -330,7 +322,9 @@ good essential tips.
    whatever social media site you use. Nothing online is truly free -- understand 
    who owns and how they may use your data!
 
-3. **Reduce your social media footprint**. Be careful on which "friend" requests 
+   <!--Find image of weird social media requests, or visual example of oversharing-->
+
+3. **Reduce your social media footprint**. Be careful about which "friend" requests 
    you accept, and who is following you on twitter. Turn off GPS location posting 
    on social media. If people know that you are in Hawaii, they know you aren't 
    home! Remember, once it is online your information is there forever! It is 
@@ -338,8 +332,8 @@ good essential tips.
 
 4. **Use encryption whenever possible.** Use https as much as possible when you 
    search the web. Consider turning on encryption on your phone, laptop, or 
-   other devices you may own. 
-   
+   other devices you may own.
+
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel13.jpg)   
 
 <sup>1</sup>. “Evaluating Information - STAAR Method: URL & What It Can Tell You.” 

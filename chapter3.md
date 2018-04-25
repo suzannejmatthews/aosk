@@ -1,5 +1,5 @@
 
-# Intro
+# The Ripper?
 
 In the previous tutorial we used Wireshark to look for unencrypted information. If you skipped it, we **highly encourage** that you go back and 
 complete it, as it explains basic concepts of Wireshark. In this chapter, we will use Wireshark to recreate a transfered password-protected file 
@@ -8,8 +8,19 @@ and then break its password so that we can see the content.
 
 (image of Ruby/co. looking at email, upset)
 
-Ruby couldn't believe it, not only was Gerry looking at cats online, but trying to adopt a new one too!
+Ruby couldn't believe it, not only was Gerry looking at other cats online, but trying to adopt a new one too!
 
+"It'll be okay, ScriptKitty," said Pixel. "You're a great cat and I'm sure Gerry knows. Who knows, maybe you're getting a
+new brother or sister? Let's find out!"
+
+"How could we figure that out?" Ed inquired.
+
+"Easy, next time Gerry is on the computer e-mailing this person, we can just use Wireshark to capture the packets they send each other.
+Then we can read the messages and get more details."
+
+_Later that day..._
+
+(picture)
 
 
 # How do passwords work?

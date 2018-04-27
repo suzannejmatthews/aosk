@@ -20,7 +20,11 @@ Then we can read the messages and get more details."
 
 _Later that day..._
 
-(picture)
+(picture?)
+
+Ruby walked in from the living room and announced: "Gerry is back online, fire up Wireshark!"
+
+The team got to work and quickly captured a packet called __Catalog.rar__.
 
 
 # How do passwords work?

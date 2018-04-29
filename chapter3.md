@@ -20,11 +20,18 @@ Then we can read the messages and get more details."
 
 _Later that day..._
 
-(picture?)
-
 Ruby walked in from the living room and announced: "Gerry is back online, fire up Wireshark!"
 
-The team got to work and quickly captured a packet called __Catalog.rar__.
+The team got to work and quickly captured a file called __Catalog.rar__.
+
+"A catalog!" Exclaimed Pixel. "Great, now we can see what Gerry has been looking for."
+She tried to open the file, but a window popped up asking for a password.
+
+(zip file picture)
+
+"Uh oh," Ruby groaned. "We can't open it, we don't know the password!"
+
+"First, I think we need to understand why it needs a password," replied Pixel.
 
 
 # How do passwords work?
@@ -60,6 +67,7 @@ are produced by a hash function called MD5. The MD5 hash function is _assymetric
 through MD5 multiple times, we will get the same hash. However, entering two different strings (no matter how similar they may be) will _almost 
 always_ result in a different string. We say "almost always" because it is possible wtih very low probability. 
 
+
 ## Try it out yourself!
 Open the terminal and type the command `echo -n 'scriptkitty' | md5sum`:
 
@@ -77,6 +85,13 @@ with the stored hash associated with the account `rubycat`. If the hashes match,
 While your password can usually be anything you want, some passwords are better than others. As we will see in this tutorial, simple or "weak" 
 passwords are easily guessed. Likewise, while using hashes is always better than using plaintext, some hash functions are better than others. 
 MD5 (which was widely used in earlier days) is now no longer considered secure. 
+
+
+(Ed picture, thought bubble with lots of words (passwords))
+
+Ed chimed in: "Why don't we just try every password we can think of? We can get it eventually right?"
+
+"I don't think so, Ed," Pixel replied. "But we could use our computer to do the work for us!"
 
 
 # What is FTP and how does it work?
@@ -119,6 +134,13 @@ opens shows how the tranfered file looks in ASCII format. These random character
   us break this password? 
   
   It is our lucky day! There is a tool and it is called John the Ripper.
+
+  
+(picture)
+
+"John the Ripper!?" Ed exclaimed. "That sounds kind of scary."
+
+"It can be if your passwords aren't strong," said Pixel.
   
 # What is John the Ripper?
 John the Ripper is a software tool used for password cracking. It is free and runs on the most common operating systems (i.e Windows, Linux, 
@@ -164,8 +186,17 @@ our password.__
 ![show](http://www.suzannejmatthews.com/images/aosk/chapter3/ShowPassword.PNG) 
 	
 
+(happy picture at computer from ch1)
+
+"Wow that was really useful!" Ruby commented, as she typed in the newly cracked password.
+The file opened, revealing..
+"More cats!!"
+
+(sad picture from earlier in ch3 w/ cat pictures over screen instead of zip)
+
+	
 ## What did Gerry do wrong?
-As we saw in the e-mail, the "consultant" from the pet store has some pretty concerning requests ( only $20 bills, he will establish the place, 
+As we saw in the e-mail, the "consultant" from the pet store has some pretty concerning requests (only $20 bills, he will establish the place, 
 asks for card information). Moreover, they do not simply send the catalog via email, but ask for an FTP connection. Unless you know and trust 
 the sender and it is necessary, do not use a simple FTP connection for transferring files. Anyone connected on that network can capture the 
 traffic and recreate it. Yes, it is illegal, but we it is better to protect ourselves. 

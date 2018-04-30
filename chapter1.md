@@ -162,7 +162,7 @@ Stuck? Click [here](#troubleshooting) for some troubleshooting tips.
 
 The group smiled at their handiwork.
 
-"Wow, glad we could figure all of that out," remarked Ruby.
+"Wow, glad we could figure all of that out!" Remarked Ruby.
 "Now we can get to the bottom of whatever Gerry has been doing online!"
 
 When you're ready to move on to Chapter 2, click [here](chapter2.md).
@@ -171,11 +171,13 @@ When you're ready to move on to Chapter 2, click [here](chapter2.md).
 ## Troubleshooting
 
 **Q: How can I tell if my monitor is HDMI enabled?**
+
 A: Look at the back of the monitor. You should see a port similar to the HDMI port on the Raspberry Pi.
 If you don't have that port, the monitor is not HDMI enabled. Remember that you need a HDMI cable to 
 connect the Pi to your monitor!
 
 **Q: I don't have a HDMI computer monitor. What are my other options?**
+
 A: If you don't have a HDMI computer monitor, don't worry! A lot of modern TVs have HDMI ports. You 
 can use your TV as a monitor by connecting the Pi directly to your TV using a 
 HDMI cable! You can also ask your teacher if you can use the school's computer 

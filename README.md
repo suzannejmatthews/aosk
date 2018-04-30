@@ -25,5 +25,5 @@ GitHub: https://github.com/suzannejmatthews/aosk. 2018.
 
 
 
-\[Longer description here\]
+<!-- \[Longer description here\] -->
 

@@ -6,7 +6,7 @@ complete it, as it explains basic concepts of Wireshark. In this chapter, we wil
 and then break its password so that we can see the content. 
 
 
-(image of Ruby/co. looking at email, upset)
+![panel2](http://www.suzannejmatthews.com/images/aosk/chapter3/panel2.PNG)
 
 Ruby couldn't believe it, not only was Gerry looking at other cats online, but trying to adopt a new one too!
 
@@ -27,7 +27,7 @@ The team got to work and quickly captured a file called __Catalog.rar__.
 "A catalog!" Exclaimed Pixel. "Great, now we can see what Gerry has been looking for."
 She tried to open the file, but a window popped up asking for a password.
 
-(zip file picture)
+![panel1](http://www.suzannejmatthews.com/images/aosk/chapter3/panel1.PNG)
 
 "Uh oh," Ruby groaned. "We can't open it, we don't know the password!"
 
@@ -136,7 +136,7 @@ opens shows how the tranfered file looks in ASCII format. These random character
   It is our lucky day! There is a tool and it is called John the Ripper.
 
   
-(picture)
+(picture of Ed confused/frowning)
 
 "John the Ripper!?" Ed exclaimed. "That sounds kind of scary."
 
@@ -186,7 +186,7 @@ our password.__
 ![show](http://www.suzannejmatthews.com/images/aosk/chapter3/ShowPassword.PNG) 
 	
 
-(happy picture at computer from ch1)
+![panel7](http://www.suzannejmatthews.com/images/aosk/chapter1/panel7.PNG) 
 
 "Wow that was really useful!" Ruby commented, as she typed in the newly cracked password.
 The file opened, revealing..

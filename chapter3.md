@@ -22,7 +22,7 @@ _Later that day..._
 
 Ruby walked in from the living room and announced: "Gerry is back online, fire up Wireshark!"
 
-The team got to work and quickly captured a file called __Catalog.rar__.
+The team got to work and quickly captured a file called `Catalog.rar`.
 
 "A catalog!" Exclaimed Pixel. "Great, now we can see what Gerry has been looking for."
 She tried to open the file, but a window popped up asking for a password.
@@ -87,7 +87,7 @@ passwords are easily guessed. Likewise, while using hashes is always better than
 MD5 (which was widely used in earlier days) is now no longer considered secure. 
 
 
-(Ed picture, thought bubble with lots of words (passwords))
+![panel3](http://suzannejmatthews.com/images/aosk/chapter3/panel3.PNG)
 
 Ed chimed in: "Why don't we just try every password we can think of? We can get it eventually right?"
 
@@ -136,7 +136,7 @@ opens shows how the tranfered file looks in ASCII format. These random character
   It is our lucky day! There is a tool and it is called John the Ripper.
 
   
-(picture of Ed confused/frowning)
+![panel4](http://suzannejmatthews.com/images/aosk/chapter3/panel4.PNG)
 
 "John the Ripper!?" Ed exclaimed. "That sounds kind of scary."
 
@@ -191,8 +191,8 @@ our password.__
 "Wow that was really useful!" Ruby commented, as she typed in the newly cracked password.
 The file opened, revealing..
 "More cats!!"
-
-(sad picture from earlier in ch3 w/ cat pictures over screen instead of zip)
+http://suzannejmatthews.com/images/aosk/chapter3/panel5.png
+![panel5](http://suzannejmatthews.com/images/aosk/chapter3/panel5.png) 
 
 	
 ## What did Gerry do wrong?

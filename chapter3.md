@@ -191,7 +191,7 @@ our password.__
 "Wow that was really useful!" Ruby commented, as she typed in the newly cracked password.
 The file opened, revealing..
 "More cats!!"
-http://suzannejmatthews.com/images/aosk/chapter3/panel5.png
+
 ![panel5](http://suzannejmatthews.com/images/aosk/chapter3/panel5.png) 
 
 	

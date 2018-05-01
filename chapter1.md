@@ -77,20 +77,13 @@ less powerful than those you find desktops and laptops. Let's take a closer look
 
 ![Pi1](http://www.suzannejmatthews.com/images/aosk/chapter1/PiBoard.jpg)
 
-* **USB port:** these ports are used to connect input devices, such as a mouse or a keyboard.
-* **HDMI port:**  used to connect a monitor to the Pi
-* **microUSB port:** this is the port where we connect the power cable
-* **Ethernet port:** used to connect the Pi to the internet or another computer. 
-* **GPIO pins:** useful for interfacing with hardware. We won't use those in these tutorials.
-In addition, the Raspberry Pi has integrated wireless and Bluetooth. That means you can connect to the 
-internet via a wireless access point, or connect the Pi wirelessly to Bluetooth-enabled devices.
-
 Your Raspberry Pi is a fully functioning computer. That means when you boot it up, you would see a Desktop
 environment, just like when you boot up a laptop! At this point, if you have a separate HDMI enabled monitor, 
 a USB keyboard and USB mouse that you can connect your Pi, you can plug those in, power up your Pi, and 
 log in. The username is `root` and the password is `toor`.
 If you can succesfully log in at this point,
 congratulations! You are now ready to move on to the fun part! Click [here](#ready-to-go) to continue. 
+
 To learn more about the Raspberry Pi, click [here](chapter1advanced.md).
 
 ## Advanced Setup

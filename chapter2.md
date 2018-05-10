@@ -28,27 +28,7 @@ passwords and see what anyone else is searching, it is important to mention
 that this tutorial is performed in a secure environment and the network 
 packets are specifically created for this activity. The legality of capturing 
 and inspecting packets is a gray area and thus, you should not attempt to do 
-anything learn in this tutorial outside of the Raspberry Pi. -->
-
-
-## Network Fundamentals
-Let's start by talking about networks. A **network** is simply a collection of 
-computers or other devices that are connected together some way, usually via a 
-router. 
-
-A **router** is a simple device that is capable of transferring information 
-between the devices that are connected to it. These devices could be different 
-computers, printers, or even other routers who can then pass the information 
-on.
-
-Each computer on the network is assigned an **IP address**. This address is 
-subject to change. If the user connects to the internet via a different router 
-or at a different time, they may have a different IP address. Contrast this to 
-the **MAC address**, which is unique to a particular device. If you bring a 
-router down, you affect all the devices that are connected to it, and any 
-other routers it is connected to. If a router is offline, the devices connected to 
-it are also offline, as they cannot obtain IP addresses. Thus, the internet at 
-any particular time can be defined as the set of visible routers.
+anything learned in this tutorial outside of the Raspberry Pi. -->
 
 ## How is Information Sent on the Internet?
 
@@ -74,36 +54,30 @@ Packets are a lot like the packages you send in the mail:
   message, passwords, websites, etc. 
 
 Packets traditionally travelled between routers via wires. These wires could be 
-telephone wires, television cable wires, or large fibre-optic cables running 
-deep underwater. That's one of the reasons why many of the common internet 
+telephone wires, television cable wires, or large fiber-optic cables running 
+deep underwater. That's one of the reasons why many common internet 
 providers were originally telephone and cable providers. 
 
 ## The Dangers of Information Transfer on Networks
 
-In networks, there isn't a unique path that packets follow. In fact, to ensure 
-that there isn't a single point of failure, several copies of each packet are 
-generated, and they all travel in different directions across the network. This 
-is especially true with wireless networks, where all the  computers connected 
-to the wireless router sends their information through the air (similar to Mike 
-Teavee and Wonka Vision in Willie Wonka and the Chocolate Factory). The wireless 
-router, sends the information back to all the computers via the air, in a 
-communication mechanism called **broadcast**. 
+In wireless networks, all the computers connected to a wireless router send their 
+information through the air (similar to Mike Teavee and Wonka Vision in Willy Wonka 
+and the Chocolate Factory). The wireless router sends the information back to all the 
+computers via the air in a communication mechanism called **broadcast**. 
 
-In broadcasting, every computer gets a perfect copy of all the packets sent 
-over the network. However, since every computer knows its unique IP address, 
-it discards the packets that are not addressed to it. Just like you're 
-supposed to discard any mail you receive that’s not addressed to you. At least, 
-that's how it's supposed to work.
-
-
+In broadcasting, each computer gets a perfect copy of all the packets sent 
+over the network, but only keeps the ones that are addressed to it.  Just like you're 
+supposed to discard any mail you receive that’s not addressed to you. That's how it's 
+_supposed_ to work, at least.
 
 A malicious individual can place a special device on a network called a 
-**packet sniffer**. Instead of discarding the packets that it gets, the sniffer 
+**packet sniffer**. Instead of discarding the packets that a computer gets, the sniffer 
 stores all of them in a packet capture. You have no knowledge that a packet 
 sniffer has a copy of your packets, because, of course, you get them too. It’s 
 one of the consequences of being able to easily create and distribute perfect copies 
 of digital content. 
 
+For more information on networks and packets, click [here](chapter2advanced.md).
 
 ![panel11](http://www.suzannejmatthews.com/images/aosk/chapter2/panel11.jpg)
 
@@ -126,15 +100,15 @@ And later,
 Thus, wiretapping secured wireless networks is illegal; but what about 
 unsecured "free" WiFi hotspots? In other words, are unsecured wireless 
 networks (such as those found in some homes, coffee shops, hotels, airports, 
-etc.) configured in a manner that is "readily accessible to the general public"? 
+etc.) configured in a manner that is "readily accessible to the general public?" 
 And if so, is running a packet capture on it legal? 
 
 ![panel12](http://www.suzannejmatthews.com/images/aosk/chapter2/panel12.jpg)
 
 Do you agree with Ruby's logic? Is it illegal? Remember, this question is 
-different from "SHOULD it be illegal". Do people using unsecured wireless 
-networks have some "expectation of privacy"? The law is currently unclear, and 
-certainly groups advocate amending the Federal Wiretap Act to include a clause 
+different from asking whether it SHOULD be illegal. Do people using unsecured wireless 
+networks have some "expectation of privacy?" The law is currently unclear, and 
+there are groups who advocate for amending the Federal Wiretap Act to include a clause 
 that protects wireless networks. The problem with the digital world is that 
 our technology is progressing at a speed that far outpaces the laws written in 
 the physical world.
@@ -142,11 +116,11 @@ the physical world.
 Keep in mind that the exercises we are showing you in this chapter were created 
 in a specially controlled environment (called a **sandbox**) so there were no 
 risks in breaking the law. Since packet sniffing is a legal and ethical gray 
-area, do NOT run a packet sniffer without permission on a network that you do 
+area, you should NOT run a packet sniffer without permission on a network that you do 
 not own!
 
-With all of these ethical challenges, should packet sniffers be illegal? Why not 
-just outlaw packet sniffers altogether? Isn’t packet sniffing obviously bad? 
+Considering all of these ethical challenges, shouldn't packet sniffers be illegal? 
+Isn’t packet sniffing obviously bad? 
 Not exactly. 
 
 Packet sniffers are really useful and can be used for legitimate 
@@ -159,25 +133,13 @@ effectiveness of access control systems, such as spam filters and firewalls.
 ![panel5](http://www.suzannejmatthews.com/images/aosk/chapter2/panel5.jpg)
 
 Before starting the tutorial, let's go over some basic terminology and concepts:
-1. **Wireshark** is a very popular packet sniffer and analyzer that has been 
-around the late 1990s, and is used by many security professionals and has won 
-many industrial awards. 
+1. **Wireshark** is a popular packet sniffer and analyzer
 
-2. **PCAP file**: a Packet CAPture file. All data on the internet is 
-transferred using packets. They contain the all information that you request 
-and receive, from what you search for online, the websites you click, the 
-pictures you look at. All of this information can be captured by a packet 
-sniffer an stored in the PCAP file. 
-from a network. 
+2. **PCAP file**: a Packet CAPture file. Contains all of the information captured 
+by a packet sniffer over a period of time
 
 3. **Protocol:** a set of rules that define how internet traffic is routed on 
-the network. For example, if you surf the internet and search for different 
-images or materials, you are using TCP (Transmission Control Protocol). If you 
-would like to check your email, you will use SMTP (Simple Mail Transfer Protocol) 
-or IMAP (the Internet Message Access Protocol). As another analogy, you can 
-think of protocols as the box you use when you send and receive a package 
-using the mail service. Depending on the content, you will use a different box, 
-or for a letter you will use an envelope. 
+the network
 
 
 ## Packet Analysis
@@ -212,10 +174,10 @@ you double click on that, it will open the website and you can see the content
 that the person whose packet you captured was looking for. 
 ![ws3](http://www.suzannejmatthews.com/images/aosk/chapter2/ws3.png)
 
-7. Try to find as many information as you can about the owner's activity on 
+7. Try to find as much information as you can about Gerry's activity on 
 the Internet.
 
-Now that we found some information about our owner's searches on the Internet, we will try to find some other unencrypted data.
+Now that we found some information about Gerry's searches on the Internet, we will try to find some other unencrypted data.
 
 8. Go to the search tab and search for `smtp`. For this protocol we are more interested in the packets which contain
 `from/to`. Click on the `info` tab to sort the packets. 
@@ -229,7 +191,7 @@ the email that has been received or sent.
  
 ![content](http://www.suzannejmatthews.com/images/aosk/chapter2/content.PNG)
 
-Hmm...what is our owner planning?
+Hmm...what is Gerry planning?
 
 
 ## Reliable and unreliable uniform resource locators (URLs)
@@ -267,8 +229,6 @@ the reputation of websites and report back fradulent and malicious websites.
 Malicious websites have the capabilities to infect your computer, so be careful.<sup>2</sup>.
 
 
-
-
 ## Protecting Yourself Against Packet Sniffers
 So how do we protect ourselves against packet sniffing? The answer is not to 
 simply use password protected wireless networks. Someone who is intent on 
@@ -283,56 +243,42 @@ stores, and other entities that deal with financial transactions on a regular
 basis encrypt the packets being sent to them. That is why you always connect to 
 an https address with them.
 
-There have been several high profile cases involving packet sniffing that has 
-occurred in decade. You can read more about them at the end of this tutorial. 
-However, one of the positive outcomes of these highly public cases is that a 
-lot of websites are using encryption by default. 
+
+![panel16](http://www.suzannejmatthews.com/images/aosk/chapter2/panel16.JPG)
 
 An easy way to check if your connection is encrypted is to look at the URL. 
 If it starts with "https://" that means it is encrypted. In browsers such as 
 Chrome, look for the little green lock and the words "secure". That lets us 
 know that encryption is on.
 
-Keep in mind that if someone really wants to steal your information, they 
-will try hard. There are a lot of malicious actors who are actively trying to 
-look for vulnerabilities in TLS (the security layer that defines https), and 
-vulnerabilities are found.
+![panel15](http://www.suzannejmatthews.com/images/aosk/chapter2/panel15.JPG)
+
+Remember that if someone really wants to steal your information, they 
+will try hard. There are a lot of malicious actors who are actively looking for 
+vulnerabilities in TLS (the security layer that defines https).
 
 Keep in mind that connecting to a site using encryption only protects your data 
-as it is in transit to that site. If a site is hacked, or if the owners of the 
+as it is in transit to that site. If a site is hacked, or if the owner of the 
 website decides to share your information with third parties, your personal 
 information can still be compromised.
 
 ## Protecting Your Data
 
-The surest way to ensure that your data never gets stolen on the internet is 
+The most reliable way to ensure that your data never gets stolen on the internet is 
 to not use the internet. But, of course, this is not a reasonable or feasible 
 course of action! To maximize the security of your personal data, follow these essential tips.
 
-1. **Never share anything online that you don't want everyone knowing**. Be 
-   careful about what information you share on social media. This is not 
-   limited to text! Since perfect copies can be made of all digital content, 
-   be cautious about what photos and videos you upload or share as well.
+1. **Never share anything online that you don't want everyone knowing**
 
-2. **Regularly Check your Social Media Security Settings**. Lock down your 
-   social media accounts so that only real friends (aka, people you know in 
-   real life) can access them. Some websites reset your security settings on 
-   updates, so it is a good idea to periodically check and ensure that they are 
-   where you want them to be. Be sure to read the Terms of Service (TOS) of 
-   whatever social media site you use. Nothing online is truly free -- understand 
-   who owns and how they may use your data!
+2. **Regularly Check your Social Media Security Settings**
 
    <!--Find image of weird social media requests, or visual example of oversharing-->
 
-3. **Reduce your social media footprint**. Be careful about which "friend" requests 
-   you accept, and who is following you on twitter. Turn off GPS location posting 
-   on social media. If people know that you are in Hawaii, they know you aren't 
-   home! Remember, once it is online your information is there forever! It is 
-   extremely hard to remove content from the internet once it is there. 
+3. **Reduce your social media footprint**
 
-4. **Use encryption whenever possible.** Use https as much as possible when you 
-   search the web. Consider turning on encryption on your phone, laptop, or 
-   other devices you may own.
+4. **Use encryption whenever possible**
+
+For more details on protecting your data online, click [here](protectdata.md)!
 
 ![panel3](http://www.suzannejmatthews.com/images/aosk/chapter2/panel13.jpg)   
 

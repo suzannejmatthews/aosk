@@ -138,18 +138,7 @@ Before starting the tutorial, let's go over some basic terminology and concepts:
 2. **PCAP file**: a Packet CAPture file. Contains all of the information captured 
 by a packet sniffer over a period of time
 
-3. **Protocol:** a set of rules that define how internet traffic is routed on 
-<<<<<<< HEAD
-the network. For example, if you surf the internet and search for different 
-images or materials, you are using HTTP (Hyper Text Transfer Protocol). If you 
-would like to check your email, you will use SMTP (Simple Mail Transfer Protocol) 
-or IMAP (the Internet Message Access Protocol). As another analogy, you can 
-think of protocols as the box you use when you send and receive a package 
-using the mail service. Depending on the content, you will use a different box, 
-or for a letter you will use an envelope. 
-=======
-the network
->>>>>>> carlieEdits
+3. **Protocol:** a set of rules that define how internet traffic is routed on the network
 
 
 ## Packet Analysis

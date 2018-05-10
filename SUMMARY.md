@@ -3,8 +3,10 @@
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
   * [Advanced Instructions](headlessSetup.md)
-  * [Learn More](chapter1advanced.md)
+  * [Learn More About Your Pi](chapter1advanced.md)
 * [Second Chapter](chapter2.md)
+  * [More on Networks](chapter2advanced.md)
+  * [Protecting Your Information](protectdata.md)
 * [Third Chapter](chapter3.md)
 
 

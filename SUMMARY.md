@@ -8,5 +8,6 @@
   * [More on Networks](chapter2advanced.md)
   * [Protecting Your Information](protectdata.md)
 * [Third Chapter](chapter3.md)
+  *[Passwords and Encryption](chapter3advanced.md)
 
 

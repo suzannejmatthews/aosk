@@ -20,6 +20,7 @@ In order to decrease the chance of such an attack, many companies use identity a
 
 SSH stands for Secure Socket Shell. It is a protocol that allows a user to remote control a computer. It provides a secure communication between the computers connecting. This protocol is usually used by the network administrators for managing computers remotely. Even if your network is not the best in terms of security, SSH offers an extra layer of encryption. Most of the operating systems come with SSH already installed. There are programs that offer a graphical interface for SSH so the user does not have to use the command line. A software like this is WinSCP. SSH can also be used to transfer files. It uses the SFTP (SSH File Transfer Protocol) for transfer.
 
+![pass](http://www.suzannejmatthews.com/images/aosk/chapter4/usePass.JPG)
 
 ## Steps for this tutorial
 
@@ -40,7 +41,20 @@ In this tutorial we are going to try to log in Gerry's computer via ssh and see 
 ![Cat](http://www.suzannejmatthews.com/images/aosk/chapter4/Cat.PNG)
 
 6. Interesting! It looks like the file has some coordinates. Try to see where the coordinations point. Google maps may be useful. 
+
+![Grid](http://www.suzannejmatthews.com/images/aosk/chapter4/Grid.JPG)
+
 7. To exit the SSH session, you can type in the terminal, `logout`
+
+
+![left](http://www.suzannejmatthews.com/images/aosk/chapter4/Left.JPG)
+
+![save](http://www.suzannejmatthews.com/images/aosk/chapter4/save.JPG)
+
+![meet](http://www.suzannejmatthews.com/images/aosk/chapter4/meet.JPG)
+
+![join](http://www.suzannejmatthews.com/images/aosk/chapter4/Join.JPG)
+
 
 ## What did Gerry do wrong?
 

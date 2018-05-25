@@ -9,5 +9,7 @@
   * [Protecting Your Information](protectdata.md)
 * [Third Chapter](chapter3.md)
   * [Passwords and Encryption](chapter3advanced.md)
+* [Fourth Chapter](chapter4.md)
+
 
 

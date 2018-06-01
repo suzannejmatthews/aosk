@@ -118,7 +118,7 @@ Linux among security professionals and enthusiasts. Follow the steps below to ge
 system:
 
 1. From internet: Download and install Win32 Disk Imager (found here https://sourceforge.net/projects/win32diskimager/) 
-2. Download the Raspberry image from  XWebsite
+2. Download the Raspberry image from [here] (http://www.suzannejmatthews.com/images/aosk/aosk_v2.7z)
 3. Open Win32 Disk Imager and navigate to where you downloaded the image and click OK
 ![setup0](http://www.suzannejmatthews.com/images/aosk/chapter1/setup0.png)
 4. Click on the Write button to begin writing the image on the micro SD card.

@@ -287,3 +287,5 @@ University of South Carolina Upstate Library, 8 Feb. 2018,
 <sup>2</sup>. Phelps, Justin. “How to Tell If a Link Is Safe Without Clicking on It.” 
 PCWorld, 7 Feb. 2012, 11:31 am, 
 <a>www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.</a>
+
+[Click here]("chapter3.md") to go to the next chapter. 

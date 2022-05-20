@@ -83,4 +83,4 @@ KeePass is another free password manager primarily available for Windows. It sto
 4. **Use two factor authentication where it is available**. Most websites offer this option nowadays. This requires two methods of authentication in order to access that account. For example, you can set up your account to ask for a password from the keyboard, and then to ask for a pin number introduced from your phone. In this way if someone discovers your password, that person will not be able to access the account without the pin code. This is also usefull for notifications. If your phone asks for the pin number and you know you are not the one who introduced the password, you can immediately take action and change your password.  
 
 
-Thanks for reading! [Click here](Summary.md) to go back to the table of contents.
+Thanks for reading! [Click here](SUMMARY.md) to go back to the table of contents.

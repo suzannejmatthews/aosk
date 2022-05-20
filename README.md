@@ -9,7 +9,7 @@ Created by Ovidiu-Gabriel Baciu-Ureche, Carlie Sleeman, Karlee Scott, Clay Moody
 The adventures of ScriptKitty is a collaborative project by students Ovidiu-Gabriel Baciu-Ureche, Carlie 
 Sleeman and Karlee Scott with faculty Suzanne J. Matthews and William "Clay" Moody. Through comics and 
 detailed tutorials, this book attempts to introduce students to basic cyber security exercises on the 
-Raspberry Pi. [Click here](Chapter1.md) to start reading!
+Raspberry Pi. [Click here](chapter1.md) to start reading!
 
 ## Can I use the material in this book?
 

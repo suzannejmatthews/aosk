@@ -288,4 +288,4 @@ University of South Carolina Upstate Library, 8 Feb. 2018,
 PCWorld, 7 Feb. 2012, 11:31 am, 
 <a>www.pcworld.com/article/248963/how_to_tell_if_a_link_is_safe_without_clicking_on_it.html.</a>
 
-[Click here]("chapter3.md") to go to the next chapter. 
+[Click here](chapter3.md) to go to the next chapter. 

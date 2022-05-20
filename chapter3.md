@@ -1,7 +1,7 @@
 
 # The Ripper?
 
-_In the previous tutorial we used Wireshark to look for unencrypted information. If you skipped 
+_In the [previous tutorial](chapter2.md) we used Wireshark to look for unencrypted information. If you skipped 
 it, we **highly encourage** that you go back and complete it, as it explains basic concepts 
 of Wireshark. In this chapter, we will use Wireshark to recreate a transfered password-protected file 
 and then break its password so that we can see the content._
@@ -250,6 +250,8 @@ These tools generate and store strong passwords for you.
 
 5. If it is mandatory for you to send important information through e-mail, use encryption 
 tools so that you can add more encryption layers, and a safe method of transferring files.
+
+[Click here](chapter4.md) to continue on to the next chapter.
 
 
 

@@ -18,7 +18,7 @@ works or use our material for any commercial purposes without our expressed cons
 to link back to this website and us authors.
 
 ## Associated Raspberry Pi Image Links
-* [Download Pre-built image](http://suzannejmatthews.com/images/aosk/aosk_v2.7z)
+* [Download Pre-built image](https://cs-materials.herokuapp.com/material/835)
 * [Build your own image](https://github.com/ogBaciu/Files-for-AOSK/blob/master/Install.md)
 
 
